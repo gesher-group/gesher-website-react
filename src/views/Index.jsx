@@ -29,6 +29,7 @@ import DefaultNavbar from "./IndexSections/DefaultNavbar.jsx";
 import LandingHero from "./IndexSections/LandingHero.jsx";
 import About from "./IndexSections/About.jsx";
 import Services from "./IndexSections/Services.jsx";
+import Footer from "./IndexSections/Footer.jsx";
 
 // index page sections
 import Hero from "./IndexSections/Hero.jsx";
@@ -68,7 +69,7 @@ class Index extends React.Component {
           {/* <Hero /> */}
           <About />
           <Services />
-          <Buttons />
+          {/* <Buttons />
           <Inputs />
           <section className="section">
             <Container>
@@ -98,9 +99,10 @@ class Index extends React.Component {
           <Carousel />
           <Icons />
           <Login />
-          <Download />
+          <Download /> */}
         </main>
-        <CardsFooter />
+        <Footer />
+        {/* <CardsFooter /> */}
       </>
     );
   }

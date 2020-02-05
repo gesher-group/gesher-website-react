@@ -33,18 +33,18 @@ const items = [
     caption: "",
     header: ""
   },
-  {
-    src: require("assets/img/theme/img-1-1200x1000.jpg"),
-    altText: "",
-    caption: "",
-    header: ""
-  },
-  {
-    src: require("assets/img/theme/img-2-1200x1000.jpg"),
-    altText: "",
-    caption: "",
-    header: ""
-  }
+  // {
+  //   src: require("assets/img/theme/img-1-1200x1000.jpg"),
+  //   altText: "",
+  //   caption: "",
+  //   header: ""
+  // },
+  // {
+  //   src: require("assets/img/theme/img-2-1200x1000.jpg"),
+  //   altText: "",
+  //   caption: "",
+  //   header: ""
+  // }
 ];
 
 class About extends React.Component {
@@ -77,15 +77,15 @@ class About extends React.Component {
                   and innovative ideas not yet constrained by traditional thinking.
                 </p>
                 <Button
-                  className="btn-white mt-4"
+                  className="btn mt-4"
                   color="default"
                   href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
                 >
-                  See all components
+                  Learn more
                 </Button>
               </Col>
               <Col className="mb-lg-auto" lg="6">
-                <div className="rounded shadow-lg overflow-hidden transform-perspective-right">
+                <div className="rounded overflow-hidden transform-perspective-right">
                   <UncontrolledCarousel items={items} />
                 </div>
               </Col>

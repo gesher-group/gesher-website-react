@@ -35,7 +35,7 @@ class Footer extends React.Component {
       <>
         <footer className=" footer">
           <Container>
-            <Row className=" row-grid align-items-center mb-5">
+            {/* <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
                   Thank you for supporting us!
@@ -98,8 +98,8 @@ class Footer extends React.Component {
                   Star on Github
                 </UncontrolledTooltip>
               </Col>
-            </Row>
-            <hr />
+            </Row> */}
+            {/* <hr /> */}
             <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
                 <div className=" copyright">
@@ -108,7 +108,7 @@ class Footer extends React.Component {
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
-                    Gesher Group
+                    Creative Tim
                   </a>
                   .
                 </div>
@@ -120,7 +120,7 @@ class Footer extends React.Component {
                       href="https://www.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
-                      Creative Tim
+                      Gesher Group
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -128,7 +128,7 @@ class Footer extends React.Component {
                       href="https://www.creative-tim.com/presentation?ref=adsr-footer"
                       target="_blank"
                     >
-                      About Us
+                      Contact Us
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -136,15 +136,7 @@ class Footer extends React.Component {
                       href="http://blog.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
-                      Blog
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
-                      target="_blank"
-                    >
-                      MIT License
+                      Legal
                     </NavLink>
                   </NavItem>
                 </Nav>

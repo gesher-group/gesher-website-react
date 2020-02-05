@@ -13,7 +13,7 @@ class Services extends React.Component {
               <Col className="text-justify" lg="12">
                 <h2 className="text-center">Services</h2>
                 <p className="lead">
-                Gesher Group Consulting is a student-led organization that helps businesses stay competitive even in rapidly changing markets. We will work with 4-5 clients every quarter applying the newest tools in our repertoire, continuously updating our technique. Our biggest strength is in our consultants, top talent sourced from the best at UC Santa Cruz, each with bright and innovative ideas not yet constrained by traditional thinking.
+                We help businesses stay competitive even in rapidly changing markets. We will work with 4-5 clients every quarter applying the newest tools in our repertoire, continuously updating our technique. Our biggest strength is in our consultants, top talent sourced from the best at UC Santa Cruz, each with bright and innovative ideas not yet constrained by traditional thinking.
                 </p>
                 {/* <div className="btn-wrapper">
                   <Button
@@ -50,17 +50,6 @@ class Services extends React.Component {
                         <p className="description mt-3">
                           Create market strategies, conduct extensive overviews and analyze growth opportunities.
                         </p>
-                        <div>
-                          <Badge color="primary" pill className="mr-1">
-                            business
-                          </Badge>
-                          <Badge color="primary" pill className="mr-1">
-                            vision
-                          </Badge>
-                          <Badge color="primary" pill className="mr-1">
-                            success
-                          </Badge>
-                        </div>
                         <Button
                           className="mt-4"
                           color="primary"
@@ -75,29 +64,18 @@ class Services extends React.Component {
                   <Col lg="4">
                     <Card className="card-lift--hover shadow border-0">
                       <CardBody className="py-5">
-                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                        <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                           <i className="ni ni-laptop" />
                         </div>
-                        <h6 className="text-success text-uppercase">
+                        <h6 className="text-warning text-uppercase">
                           Digital Marketing
                         </h6>
                         <p className="description mt-3">
                           Market products and services using digital channels to reach customers and promotion through social media.
                         </p>
-                        <div>
-                        <Badge color="success" pill className="mr-1">
-                            marketing
-                          </Badge>
-                          <Badge color="success" pill className="mr-1">
-                            social media
-                          </Badge>
-                          <Badge color="success" pill className="mr-1">
-                            sales
-                          </Badge>
-                        </div>
                         <Button
                           className="mt-4"
-                          color="success"
+                          color="warning"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
@@ -109,29 +87,18 @@ class Services extends React.Component {
                   <Col lg="4">
                     <Card className="card-lift--hover shadow border-0">
                       <CardBody className="py-5">
-                        <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                           <i className="ni ni-chart-bar-32" />
                         </div>
-                        <h6 className="text-warning text-uppercase">
+                        <h6 className="text-success text-uppercase">
                           Data Analytics
                         </h6>
                         <p className="description mt-3">
                           Analyzing business data and metrics to help businesses make the most informed decisions.
                         </p>
-                        <div>
-                          <Badge color="warning" pill className="mr-1">
-                            data
-                          </Badge>
-                          <Badge color="warning" pill className="mr-1">
-                            product
-                          </Badge>
-                          <Badge color="warning" pill className="mr-1">
-                            launch
-                          </Badge>
-                        </div>
                         <Button
                           className="mt-4"
-                          color="warning"
+                          color="success"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
