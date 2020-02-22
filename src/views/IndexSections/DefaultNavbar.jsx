@@ -62,12 +62,12 @@ class DefaultNavbar extends React.Component {
                 </div>
                 <Nav className="ml-lg-auto" navbar>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={e => e.preventDefault()}>
-                      Teams <span className="sr-only">(current)</span>
+                    <NavLink href="/teams/">
+                      Teams 
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={e => e.preventDefault()}>
+                    <NavLink href="/clients/">
                       Clients
                     </NavLink>
                   </NavItem>
