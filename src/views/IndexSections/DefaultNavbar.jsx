@@ -72,7 +72,7 @@ class DefaultNavbar extends React.Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={e => e.preventDefault()}>
+                    <NavLink href="/students/">
                       Students
                     </NavLink>
                   </NavItem>

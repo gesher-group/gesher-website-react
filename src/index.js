@@ -28,6 +28,7 @@ import Landing from "views/examples/Landing.jsx";
 import Login from "views/examples/Login.jsx";
 import Profile from "views/examples/Profile.jsx";
 import Register from "views/examples/Register.jsx";
+import Students from "views/pages/Students.jsx";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -38,7 +39,7 @@ ReactDOM.render(
         exact
         render={props => <Landing {...props} />}
       />
-      <Route path="/login-page" exact render={props => <Login {...props} />} />
+      <Route path="/students" exact render={props => <Students {...props} />} />
       <Route
         path="/profile-page"
         exact
