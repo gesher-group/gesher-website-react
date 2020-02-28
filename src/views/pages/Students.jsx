@@ -43,6 +43,7 @@ import CardsFooter from "components/Footers/CardsFooter.jsx";
 import Download from "../IndexSections/Download.jsx";
 import DefaultNavbar from "views/IndexSections/DefaultNavbar.jsx";
 import StudentHero from "components/StudentHero.jsx";
+import Footer from "../IndexSections/Footer.jsx";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -72,100 +73,79 @@ class Students extends React.Component {
                         </Row>
                     </Container>
                 </section>
-                <section className="section section-shaped">
+                <section className="section section-shaped" style={{background:" #f7f8fa  "}}>
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{  color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                             date="3/08/2020"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             icon={''}
                         >
                             <h3 className="vertical-timeline-element-title">Applications Open</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
                             <p>
-                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                                Use the form on this page to apply. Or click <a href="#">here!</a>
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="4/02/2020"
+                            date="03/31/2020"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            icon={'src/assets/img/brand/GesherStack1.svg'}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         >
-                            <h3 className="vertical-timeline-element-title">Art Director</h3>
-                            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                            <h3 className="vertical-timeline-element-title">Info Night</h3>
                             <p>
-                                Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                                Come on by to learn more about Gesher and meet some of our current members! Dress Code: Business Casual
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="2008 - 2010"
+                            date="04/02/2020"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                             icon={''}
                         >
-                            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+                            <h3 className="vertical-timeline-element-title">Applications Closed</h3>
                             <p>
-                                User Experience, Visual Design
+                                Last day to submit applications for our Spring 2020 recruitment season
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="2006 - 2008"
+                            date="04/03 - 04/06/2020"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            icon={'src/assets/img/brand/GesherStack1.svg'}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         >
-                            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                            <h3 className="vertical-timeline-element-title">Interviews Begin</h3>
                             <p>
-                                User Experience, Visual Design
+                            <b>Invite Only</b> Applicants who have been invited for an Interview should recieve an Email allowing them to schedule a time with the Gesher Group Board
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--education"
-                            date="April 2013"
-                            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                            icon={'src/assets/img/brand/GesherStack1.svg'}
+                            date="04/07/2020"
+                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         >
-                            <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+                            <h3 className="vertical-timeline-element-title">Decisions released</h3>
                             <p>
-                                Strategy, Social Media
+                            Applicants will receive an email from Gesher Group informing them of their application status
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--education"
-                            date="November 2012"
-                            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                            icon={'src/assets/img/brand/GesherStack1.svg'}
+                            date="04/08/2020"
+                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         >
-                            <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+                            <h3 className="vertical-timeline-element-title">First meeting</h3>
                             <p>
-                                Creative Direction, User Experience, Visual Design
+                            This will be our first meeting with new members that have been selected from the application period
     </p>
                         </VerticalTimelineElement>
-                        <VerticalTimelineElement
-                            className="vertical-timeline-element--education"
-                            date="2002 - 2006"
-                            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                            icon={'src/assets/img/brand/GesherStack1.svg'}
-                        >
-                            <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-                            <p>
-                                Creative Direction, Visual Design
-    </p>
-                        </VerticalTimelineElement>
-                        <VerticalTimelineElement
-                            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                            icon={'src/assets/img/brand/GesherStack1.svg'}
-                        />
                     </VerticalTimeline>
                 </section>
+                <Footer/>
             </>
         )
     }

@@ -105,10 +105,10 @@ class Footer extends React.Component {
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="https://www.geshergroup.org"
                     target="_blank"
                   >
-                    Creative Tim
+                    Gesher Group
                   </a>
                   .
                 </div>
