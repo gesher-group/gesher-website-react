@@ -29,6 +29,9 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
 class Footer extends React.Component {
   render() {
     return (
@@ -117,15 +120,23 @@ class Footer extends React.Component {
                 <Nav className=" nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
+                      href="https://www.instagram.com/geshergroup/"
                       target="_blank"
                     >
-                      Gesher Group
+                      <FontAwesomeIcon icon={faInstagram}/>
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
+                      href="https://www.linkedin.com/company/gesher-group/"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon icon={faLinkedin}/>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      href="mailto:team@geshergroup.org"
                       target="_blank"
                     >
                       Contact Us
@@ -133,7 +144,7 @@ class Footer extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
+                      href="http://www.geshergroup.org/Bylaws%202016.pdf"
                       target="_blank"
                     >
                       Legal

@@ -73,7 +73,78 @@ class Students extends React.Component {
                         </Row>
                     </Container>
                 </section>
-                <section className="section section-shaped" style={{background:" #f7f8fa  "}}>
+                <section className="section section-shaped">
+                    <Container>
+                        <Row className="justify-content-center">
+                            <Col lg="12">
+                                <Row className="row-grid">
+                                    <Col lg="4">
+                                        <Card className="card-lift--hover shadow border-0">
+                                            <CardBody className="py-5">
+                                                <h2 className="text-primary text-uppercase">
+                                                    Our Work
+                        </h2>
+                                                <p className="description mt-3">
+                                                Gesher Group consultants work directly with businesses from the Bay Area in Marketing, Business Development, or Data Analytics.
+                        </p>
+                                                <Button
+                                                    className="mt-4"
+                                                    color="primary"
+                                                    href="#pablo"
+                                                    onClick={e => e.preventDefault()}
+                                                >
+                                                    Learn more
+                        </Button>
+                                            </CardBody>
+                                        </Card>
+                                    </Col>
+                                    <Col lg="4">
+                                        <Card className="card-lift--hover shadow border-0">
+                                            <CardBody className="py-5">
+                                                <h2 className="text-primary text-uppercase">
+                                                    Training
+                        </h2>
+                                                <p className="description mt-3">
+                                                At Gesher Group we strive to keep our consultants well trained through workshops and seminars
+                        </p>
+                                                <Button
+                                                    className="mt-4"
+                                                    color="primary"
+                                                    href="#pablo"
+                                                    onClick={e => e.preventDefault()}
+                                                >
+                                                    Learn more
+                        </Button>
+                                            </CardBody>
+                                        </Card>
+                                    </Col>
+                                    <Col lg="4">
+                                        <Card className="card-lift--hover shadow border-0">
+                                            <CardBody className="py-5">
+                                                <h2 className="text-primary text-uppercase">
+                                                    Networking
+                        </h2>
+                                                <p className="description mt-3">
+                                                Consultants have the opportunity to network through guest speakers, alumni and company tours.
+                        </p>
+                                                <Button
+                                                    className="mt-4"
+                                                    color="primary"
+                                                    href="#pablo"
+                                                    onClick={e => e.preventDefault()}
+                                                >
+                                                    Learn more
+                        </Button>
+                                            </CardBody>
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                        <Row className="py-5" />
+                    </Container>
+                </section>
+                <section className="section section-shaped" style={{ background: " #f7f8fa  " }}>
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -85,7 +156,7 @@ class Students extends React.Component {
                             <h3 className="vertical-timeline-element-title">Applications Open</h3>
                             <p>
                                 Use the form on this page to apply. Or click <a href="#">here!</a>
-    </p>
+                            </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -118,7 +189,7 @@ class Students extends React.Component {
                         >
                             <h3 className="vertical-timeline-element-title">Interviews Begin</h3>
                             <p>
-                            <b>Invite Only</b> Applicants who have been invited for an Interview should recieve an Email allowing them to schedule a time with the Gesher Group Board
+                                <b>Invite Only</b> Applicants who have been invited for an Interview should recieve an Email allowing them to schedule a time with the Gesher Group Board
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -129,7 +200,7 @@ class Students extends React.Component {
                         >
                             <h3 className="vertical-timeline-element-title">Decisions released</h3>
                             <p>
-                            Applicants will receive an email from Gesher Group informing them of their application status
+                                Applicants will receive an email from Gesher Group informing them of their application status
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -140,12 +211,12 @@ class Students extends React.Component {
                         >
                             <h3 className="vertical-timeline-element-title">First meeting</h3>
                             <p>
-                            This will be our first meeting with new members that have been selected from the application period
+                                This will be our first meeting with new members that have been selected from the application period
     </p>
                         </VerticalTimelineElement>
                     </VerticalTimeline>
                 </section>
-                <Footer/>
+                <Footer />
             </>
         )
     }
