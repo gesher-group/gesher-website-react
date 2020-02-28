@@ -80,6 +80,7 @@ class Students extends React.Component {
                                 <Row className="row-grid">
                                     <Col lg="4">
                                         <Card className="card-lift--hover shadow border-0">
+                                        <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
                                             <CardBody className="py-5">
                                                 <h2 className="text-primary text-uppercase">
                                                     Our Work
@@ -100,6 +101,7 @@ class Students extends React.Component {
                                     </Col>
                                     <Col lg="4">
                                         <Card className="card-lift--hover shadow border-0">
+                                        <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
                                             <CardBody className="py-5">
                                                 <h2 className="text-primary text-uppercase">
                                                     Training
@@ -120,6 +122,7 @@ class Students extends React.Component {
                                     </Col>
                                     <Col lg="4">
                                         <Card className="card-lift--hover shadow border-0">
+                                            <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
                                             <CardBody className="py-5">
                                                 <h2 className="text-primary text-uppercase">
                                                     Networking
