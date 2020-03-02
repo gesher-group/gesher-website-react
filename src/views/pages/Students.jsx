@@ -80,34 +80,13 @@ class Students extends React.Component {
                                 <Row className="row-grid">
                                     <Col lg="4">
                                         <Card className="card-lift--hover shadow border-0">
-                                        <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
+                                            <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
                                             <CardBody className="py-5">
                                                 <h2 className="text-primary text-uppercase">
                                                     Our Work
                         </h2>
                                                 <p className="description mt-3">
-                                                Gesher Group consultants work directly with businesses from the Bay Area in Marketing, Business Development, or Data Analytics.
-                        </p>
-                                                <Button
-                                                    className="mt-4"
-                                                    color="primary"
-                                                    href="#pablo"
-                                                    onClick={e => e.preventDefault()}
-                                                >
-                                                    Learn more
-                        </Button>
-                                            </CardBody>
-                                        </Card>
-                                    </Col>
-                                    <Col lg="4">
-                                        <Card className="card-lift--hover shadow border-0">
-                                        <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
-                                            <CardBody className="py-5">
-                                                <h2 className="text-primary text-uppercase">
-                                                    Training
-                        </h2>
-                                                <p className="description mt-3">
-                                                At Gesher Group we strive to keep our consultants well trained through workshops and seminars
+                                                    Gesher Group consultants work directly with businesses from the Bay Area in Marketing, Business Development, or Data Analytics.
                         </p>
                                                 <Button
                                                     className="mt-4"
@@ -125,10 +104,10 @@ class Students extends React.Component {
                                             <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
                                             <CardBody className="py-5">
                                                 <h2 className="text-primary text-uppercase">
-                                                    Networking
+                                                    Training
                         </h2>
                                                 <p className="description mt-3">
-                                                Consultants have the opportunity to network through guest speakers, alumni and company tours.
+                                                    At Gesher Group we strive to keep our consultants well trained through workshops and seminars
                         </p>
                                                 <Button
                                                     className="mt-4"
@@ -137,7 +116,28 @@ class Students extends React.Component {
                                                     onClick={e => e.preventDefault()}
                                                 >
                                                     Learn more
-                        </Button>
+                                                </Button>
+                                            </CardBody>
+                                        </Card>
+                                    </Col>
+                                    <Col lg="4">
+                                        <Card className="card-lift--hover shadow border-0">
+                                            <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
+                                            <CardBody className="py-5">
+                                                <h2 className="text-primary text-uppercase">
+                                                    Networking
+                                                </h2>
+                                                <p className="description mt-3">
+                                                    Consultants have the opportunity to network through guest speakers, alumni and company tours.
+                                                </p>
+                                                <Button
+                                                    className="mt-4"
+                                                    color="primary"
+                                                    href="#pablo"
+                                                    onClick={e => e.preventDefault()}
+                                                >
+                                                    Learn more
+                                                </Button>
                                             </CardBody>
                                         </Card>
                                     </Col>
