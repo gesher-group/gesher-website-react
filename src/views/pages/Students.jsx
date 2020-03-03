@@ -33,7 +33,8 @@ import {
     InputGroup,
     Container,
     Row,
-    Col
+    Col,
+    Modal
 } from "reactstrap";
 
 // core components
@@ -52,7 +53,16 @@ import training from "../../assets/img/theme/training.jpg";
 
 
 class Students extends React.Component {
-    state = {};
+    state = {
+        trainingModal: false,
+        workModal: false,
+        networkModal: false
+    };
+    toggleModal = state => {
+        this.setState({
+            [state] : !this.state[state]
+        });
+    };
     componentDidMount() {
         document.documentElement.scrollTop = 0;
         document.scrollingElement.scrollTop = 0;
@@ -70,10 +80,10 @@ class Students extends React.Component {
                                     Interested in joining Gesher?
                                 </h1>
                                 <p>
-                                    Check out our timeline below to see when we're recruiting. We recruit mainly in Fall and Spring quarters, so check back at the beginning of either quarter to apply.
+                                    Check out our timeline below to see when we're recruiting. We recruit mainly in Fall and Spring quarters, so check back before either quarter to apply.
                                 </p>
                                 <div style={{textAlign:'center'}}>
-                                <Typeform/>
+                                <Typeform color="success"/>
                                 </div>
                             </Col>
                         </Row>
@@ -86,7 +96,7 @@ class Students extends React.Component {
                                 <Row className="row-grid">
                                     <Col lg="4">
                                         <Card className="card-lift--hover shadow border-0">
-                                            <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
+                                            <CardImg top height="40%" src="https://lh3.googleusercontent.com/rxUoBIOS2W1zAtWIAOqytCCcvSukra6W6tQZZ0FWO2sTae2eX6F3ziLkh0qBrNhP0RFpI9zgpimpfGW5amJ8F4L_mHKiWdRC6NtPCnE-L11eD9c2w9CtXu2890_440kaSGoU-79GlmdEeC-XjZKI6GdKRvKPdCYO3buarWjUCT2fOmK7tulzeUG79LnTiJ2azZPF6SdnhiBXkLiLUOSLLWbZ8Q4Dm61qp2IwZ-9TKylcoTFAegopFGP-qgGqFK4nJH-UilRxK5jD2qTfuha-StgrskIAhdOXTooQZwGTJjXa_4TphoIUT7pBys7Ymjjfivr6MqriOAWUfFkoPXVlaDi_nfeJI8eUwvIRh1AXY4o7rlIJyHVA5YbhPqpCPhMXKT2pJgiokCEUOuwstt8rjySfQfccUIjPfF-bvazE2PxuDDmav46Ik4Qr7uCd2pwl2FJFptD6oqisiwuk8G6Pdf-XpuobaSRDwsRTJ7kc0jgolJYbwBYPetCcvwzcsV0ybJ5Iyl-O7svbm4gttShSVPDUy0zY2aKxHl75-V0H14Ps12tNUNEG_o6PO4PGha02ibyx-HNDP-t-RnVGg8tRpDnNs4qTPz1QMdC2BkBOG5EmQxLvr2qY2R4igU1iaRvsZ4OdIQte5hvCgBiWmdiPilgyczdUC9aAUyoay4FGudv-JNWQ5C7ucw=w2178-h1452-no" alt="Our work image" />
                                             <CardBody className="py-5">
                                                 <h2 className="text-primary text-uppercase">
                                                     Our Work
@@ -98,12 +108,53 @@ class Students extends React.Component {
                                                     className="mt-4"
                                                     color="primary"
                                                     href="#pablo"
-                                                    onClick={e => e.preventDefault()}
+                                                    onClick={() => this.toggleModal("workModal")}
                                                 >
                                                     Learn more
                         </Button>
                                             </CardBody>
                                         </Card>
+                                                                                <Modal
+              className="modal-dialog-centered"
+              isOpen={this.state.workModal}
+              toggle={() => this.toggleModal("workModal")}
+            >
+              <div className="modal-header">
+                <h6 className="modal-title" id="modal-title-default">
+                  Our Work
+                </h6>
+                <button
+                  aria-label="Close"
+                  className="close"
+                  data-dismiss="modal"
+                  type="button"
+                  onClick={() => this.toggleModal("workModal")}
+                >
+                  <span aria-hidden={true}>×</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                <p>
+                    Each quarter Gesher Group works with 4-5 companies to consult them in Business Development, Marketing, and Data Analytics. We mainly work
+                    with bay area companies but historically we've opened up our services to companies across California.
+                </p>
+                <p>
+                    For each company, we have a team of 3-5 people working on a project that quarter for their specific client. Each client has different needs 
+                    and Gesher steps in to fill those needs. Most teams are built around what the client needs, but we try to give every member experience on different types of projects each quarter.
+                </p>
+              </div>
+              <div className="modal-footer">
+                <Button
+                  className="ml-auto"
+                  color="link"
+                  data-dismiss="modal"
+                  type="button"
+                  onClick={() => this.toggleModal("workModal")}
+                >
+                  Close
+                </Button>
+              </div>
+            </Modal>
                                     </Col>
                                     <Col lg="4">
                                         <Card className="card-lift--hover shadow border-0">
@@ -119,16 +170,58 @@ class Students extends React.Component {
                                                     className="mt-4"
                                                     color="primary"
                                                     href="#pablo"
-                                                    onClick={e => e.preventDefault()}
+                                                    onClick={() => this.toggleModal("trainingModal")}
                                                 >
                                                     Learn more
                                                 </Button>
                                             </CardBody>
                                         </Card>
+                                        <Modal
+              className="modal-dialog-centered"
+              isOpen={this.state.trainingModal}
+              toggle={() => this.toggleModal("trainingModal")}
+            >
+              <div className="modal-header">
+                <h6 className="modal-title" id="modal-title-default">
+                  Training
+                </h6>
+                <button
+                  aria-label="Close"
+                  className="close"
+                  data-dismiss="modal"
+                  type="button"
+                  onClick={() => this.toggleModal("trainingModal")}
+                >
+                  <span aria-hidden={true}>×</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                <p>
+                    We at Gesher Group do our best to provide our members with relavant workshops and speakers
+                    to help develop professional skills for the real world. We've had speakers from local companies such as
+                    Looker, SpringML, and Santa Cruz Works come in to speak about their experiences and help build real world skills.
+                </p>
+                <p>
+                    Every quarter we host multiple workshops helping students learn more about Marketing, Business Development, and Data Analytics.
+                    Our workshops are designed to help our members go from zero to hero in terms of skill in their field.
+                </p>
+              </div>
+              <div className="modal-footer">
+                <Button
+                  className="ml-auto"
+                  color="link"
+                  data-dismiss="modal"
+                  type="button"
+                  onClick={() => this.toggleModal("trainingModal")}
+                >
+                  Close
+                </Button>
+              </div>
+            </Modal>
                                     </Col>
                                     <Col lg="4">
                                         <Card className="card-lift--hover shadow border-0">
-                                            <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
+                                            <CardImg top width="100%" src="https://lh3.googleusercontent.com/64jsSinPVSetjAp_LTpXATpNerxF_ZZBlLhOvuBK6TYIsJW8DYt51-kwhC7bx2Qs417nILNtLXqlaS1QQOiiiU_0Qblong2TXU3r5nSlUk1kLCEGPkg1LL2Jgre5q7LHauEXUnPI8kmUwhDHbbUqVEZbV44Nxv4dSpva8cOpSNQCXQgh_Aff4M3Fe6NC6cL2euD6S3IOPOhm9fKv_JhDleBIajycwhqiHnJpdZqTsggpmscWdxR5BU_JdPNF_LXsXOKtHRLT4QDN29X7YVABaJuW7l7Jg0-PjqenQd23DDigX-YedR5OUrf7wGIbhwfU6Xord3UIoeFQuRj7SDjfcjU5iqFAqNKfNXSkq898QO4MtzUEONhYZqofNUhb7L4w7O5ROKSY_KS0PN8fBHU_m41tiv-fK-ssReSDx788Wfp_exeniBFHGPfiYv-p22YjIBY6jDmVV4UhDY2wF3lOfhzb-UUqP8pGJOTB_Q6NiZ0jJO_djqGaFezeZvfCgNRkag3dyGW9WQPGvJdFZ6iCaRgGLeL4vUOaSxOuVgBNAeYPWrOJEqUVrc7Uhjf4N3SRZWIio4F38o0ZCU8C_L2osvPIxojZwmrq1s7SJfDwqFyqb7yQeaOmDu2lt4qmea6XmFNEjcOe0tyiUL6ZwNUlm3fuXRR5EHMta29XALkhAhw0w57r8Jz-cw=w341-h249-no" alt="Networking Image" />
                                             <CardBody className="py-5">
                                                 <h2 className="text-primary text-uppercase">
                                                     Networking
@@ -146,6 +239,45 @@ class Students extends React.Component {
                                                 </Button>
                                             </CardBody>
                                         </Card>
+                                                                                                                        <Modal
+              className="modal-dialog-centered"
+              isOpen={this.state.networkModal}
+              toggle={() => this.toggleModal("networkModal")}
+            >
+              <div className="modal-header">
+                <h6 className="modal-title" id="modal-title-default">
+                    Networking
+                </h6>
+                <button
+                  aria-label="Close"
+                  className="close"
+                  data-dismiss="modal"
+                  type="button"
+                  onClick={() => this.toggleModal("networkModal")}
+                >
+                  <span aria-hidden={true}>×</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                <p>
+                    We at Gesher Group pride ourselves on building a robust network of connections across different industries. Many of our alumni have gone on to work at companies such as Looker, RedHat, Google, and many others.
+                </p>
+                <p>
+                    Each quarter we offer professional networking events along with company tours. We've toured at Google Cloud, Tesla, and LinkedIn, to name a few. These events have helped Gesher members find job opportunities and fostered lifelong company connections.
+                </p>
+              </div>
+              <div className="modal-footer">
+                <Button
+                  className="ml-auto"
+                  color="link"
+                  data-dismiss="modal"
+                  type="button"
+                  onClick={() => this.toggleModal("networkModal")}
+                >
+                  Close
+                </Button>
+              </div>
+            </Modal>
                                     </Col>
                                 </Row>
                             </Col>
