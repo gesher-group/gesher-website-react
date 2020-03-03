@@ -233,7 +233,7 @@ class Students extends React.Component {
                                                     className="mt-4"
                                                     color="primary"
                                                     href="#pablo"
-                                                    onClick={e => e.preventDefault()}
+                                                    onClick={() => this.toggleModal("networkModal")}
                                                 >
                                                     Learn more
                                                 </Button>
