@@ -41,12 +41,14 @@ import CardsFooter from "components/Footers/CardsFooter.jsx";
 
 // index page sections
 import Download from "../IndexSections/Download.jsx";
-import DefaultNavbar from "views/IndexSections/DefaultNavbar.jsx";
+import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
 import StudentHero from "components/StudentHero.jsx";
 import Footer from "../IndexSections/Footer.jsx";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
 import Typeform from 'components/Typeform.jsx';
+
+import training from "../../assets/img/theme/training.jpg";
 
 
 class Students extends React.Component {
@@ -58,7 +60,7 @@ class Students extends React.Component {
     render() {
         return (
             <>
-                <DefaultNavbar />
+                <DemoNavbar color="success"/>
                 <StudentHero />
                 <section className="section section-shaped">
                     <Container>
@@ -70,6 +72,9 @@ class Students extends React.Component {
                                 <p>
                                     Check out our timeline below to see when we're recruiting. We recruit mainly in Fall and Spring quarters, so check back at the beginning of either quarter to apply.
                                 </p>
+                                <div style={{textAlign:'center'}}>
+                                <Typeform/>
+                                </div>
                             </Col>
                         </Row>
                     </Container>
@@ -102,7 +107,7 @@ class Students extends React.Component {
                                     </Col>
                                     <Col lg="4">
                                         <Card className="card-lift--hover shadow border-0">
-                                            <CardImg top width="100%" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Trappista_cheese_original.jpg" alt="Card image cap" />
+                                            <CardImg top width="100%" src={training} alt="Training image" />
                                             <CardBody className="py-5">
                                                 <h2 className="text-primary text-uppercase">
                                                     Training
@@ -159,7 +164,7 @@ class Students extends React.Component {
                         >
                             <h3 className="vertical-timeline-element-title">Applications Open</h3>
                             <p>
-                                Use the form on this page to apply. Or click <a href="#">here!</a>
+                                Use the apply buttons on this page to apply.
                             </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement

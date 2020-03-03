@@ -79,7 +79,7 @@ class About extends React.Component {
                 <Button
                   className="btn mt-4"
                   color="default"
-                  href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
+                  href="/students"
                 >
                   Learn more
                 </Button>

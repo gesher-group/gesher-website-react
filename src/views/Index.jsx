@@ -62,7 +62,7 @@ class Index extends React.Component {
   render() {
     return (
       <>
-        <DefaultNavbar />
+        <DemoNavbar />
         {/* <DemoNavbar /> */}
         <main ref="main">
           <LandingHero />
