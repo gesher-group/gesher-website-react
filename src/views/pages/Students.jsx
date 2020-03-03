@@ -96,7 +96,7 @@ class Students extends React.Component {
                                 <Row className="row-grid">
                                     <Col lg="4">
                                         <Card className="card-lift--hover shadow border-0">
-                                            <CardImg top height="40%" src="https://lh3.googleusercontent.com/rxUoBIOS2W1zAtWIAOqytCCcvSukra6W6tQZZ0FWO2sTae2eX6F3ziLkh0qBrNhP0RFpI9zgpimpfGW5amJ8F4L_mHKiWdRC6NtPCnE-L11eD9c2w9CtXu2890_440kaSGoU-79GlmdEeC-XjZKI6GdKRvKPdCYO3buarWjUCT2fOmK7tulzeUG79LnTiJ2azZPF6SdnhiBXkLiLUOSLLWbZ8Q4Dm61qp2IwZ-9TKylcoTFAegopFGP-qgGqFK4nJH-UilRxK5jD2qTfuha-StgrskIAhdOXTooQZwGTJjXa_4TphoIUT7pBys7Ymjjfivr6MqriOAWUfFkoPXVlaDi_nfeJI8eUwvIRh1AXY4o7rlIJyHVA5YbhPqpCPhMXKT2pJgiokCEUOuwstt8rjySfQfccUIjPfF-bvazE2PxuDDmav46Ik4Qr7uCd2pwl2FJFptD6oqisiwuk8G6Pdf-XpuobaSRDwsRTJ7kc0jgolJYbwBYPetCcvwzcsV0ybJ5Iyl-O7svbm4gttShSVPDUy0zY2aKxHl75-V0H14Ps12tNUNEG_o6PO4PGha02ibyx-HNDP-t-RnVGg8tRpDnNs4qTPz1QMdC2BkBOG5EmQxLvr2qY2R4igU1iaRvsZ4OdIQte5hvCgBiWmdiPilgyczdUC9aAUyoay4FGudv-JNWQ5C7ucw=w2178-h1452-no" alt="Our work image" />
+                                            <CardImg top height="40%" src="https://lh3.googleusercontent.com/zIkFGaYxBlZrAZjznaixn3Haf8LWSn9rK04LjZczX9PojsB0O0BDVYQxzu_m49bjNGbeLi5x1MLc4IX4QXL4IF8C0T8ianGfvyo4OdITpKf5f2717km60Gdk4sindx34lc1_kqZIkw=w2400" alt="Our work image" />
                                             <CardBody className="py-5">
                                                 <h2 className="text-primary text-uppercase">
                                                     Our Work
@@ -221,7 +221,7 @@ class Students extends React.Component {
                                     </Col>
                                     <Col lg="4">
                                         <Card className="card-lift--hover shadow border-0">
-                                            <CardImg top width="100%" src="https://lh3.googleusercontent.com/64jsSinPVSetjAp_LTpXATpNerxF_ZZBlLhOvuBK6TYIsJW8DYt51-kwhC7bx2Qs417nILNtLXqlaS1QQOiiiU_0Qblong2TXU3r5nSlUk1kLCEGPkg1LL2Jgre5q7LHauEXUnPI8kmUwhDHbbUqVEZbV44Nxv4dSpva8cOpSNQCXQgh_Aff4M3Fe6NC6cL2euD6S3IOPOhm9fKv_JhDleBIajycwhqiHnJpdZqTsggpmscWdxR5BU_JdPNF_LXsXOKtHRLT4QDN29X7YVABaJuW7l7Jg0-PjqenQd23DDigX-YedR5OUrf7wGIbhwfU6Xord3UIoeFQuRj7SDjfcjU5iqFAqNKfNXSkq898QO4MtzUEONhYZqofNUhb7L4w7O5ROKSY_KS0PN8fBHU_m41tiv-fK-ssReSDx788Wfp_exeniBFHGPfiYv-p22YjIBY6jDmVV4UhDY2wF3lOfhzb-UUqP8pGJOTB_Q6NiZ0jJO_djqGaFezeZvfCgNRkag3dyGW9WQPGvJdFZ6iCaRgGLeL4vUOaSxOuVgBNAeYPWrOJEqUVrc7Uhjf4N3SRZWIio4F38o0ZCU8C_L2osvPIxojZwmrq1s7SJfDwqFyqb7yQeaOmDu2lt4qmea6XmFNEjcOe0tyiUL6ZwNUlm3fuXRR5EHMta29XALkhAhw0w57r8Jz-cw=w341-h249-no" alt="Networking Image" />
+                                            <CardImg top width="100%" src="https://lh3.googleusercontent.com/2ztnrrwFeTS8GE1YocsTZoyojijCeMt4MsqSN9YpBQmS4wWyT0bhC7rkKwFfg2EAgf8SXwVyVU4rScLCw9saxYL8i5mFewj-4R4BI6SVccaYAa7XeY5_xmzoAIUE-qZqv1Uc6McaEg=w2400" alt="Networking Image" />
                                             <CardBody className="py-5">
                                                 <h2 className="text-primary text-uppercase">
                                                     Networking
