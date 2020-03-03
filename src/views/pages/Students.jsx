@@ -46,6 +46,7 @@ import StudentHero from "components/StudentHero.jsx";
 import Footer from "../IndexSections/Footer.jsx";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
+import Typeform from 'components/Typeform.jsx';
 
 
 class Students extends React.Component {
@@ -218,6 +219,9 @@ class Students extends React.Component {
     </p>
                         </VerticalTimelineElement>
                     </VerticalTimeline>
+                </section>
+                <section className="section section-shaped" style={{textAlign: "center",  background: "rgb(247,248,250)", background: "linear-gradient(180deg, rgba(247,248,250,1) 7%, rgba(82,95,127,1) 100%)"}}>
+                    <Typeform/>
                 </section>
                 <Footer />
             </>

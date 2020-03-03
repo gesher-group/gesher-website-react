@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+import { Button, Container, Row, Col, Img } from "reactstrap";
 
 class StudentHero extends React.Component {
   render() {
