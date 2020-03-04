@@ -260,7 +260,7 @@ class Students extends React.Component {
               </div>
               <div className="modal-body">
                 <p>
-                    We at Gesher Group pride ourselves on building a robust network of connections across different industries. Many of our alumni have gone on to work at companies such as Looker, RedHat, Google, and many others.
+                    At Gesher Group, we pride ourselves on building a robust network of connections across different industries. Our alumni have gone on to work at companies such as Looker, RedHat, Google, and Microsoft
                 </p>
                 <p>
                     Each quarter we offer professional networking events along with company tours. We've toured at Google Cloud, Tesla, and LinkedIn, to name a few. These events have helped Gesher members find job opportunities and fostered lifelong company connections.
@@ -319,7 +319,7 @@ class Students extends React.Component {
                         >
                             <h3 className="vertical-timeline-element-title">Applications Closed</h3>
                             <p>
-                                Last day to submit applications for our Spring 2020 recruitment season
+                                Last day to submit applications for our Spring 2020 recruitment season. Applications due by 11:59pm on 04/02/2020.
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -330,7 +330,7 @@ class Students extends React.Component {
                         >
                             <h3 className="vertical-timeline-element-title">Interviews Begin</h3>
                             <p>
-                                <b>Invite Only</b> Applicants who have been invited for an Interview should recieve an Email allowing them to schedule a time with the Gesher Group Board
+                                <b>Invite Only</b> Applicants who have been invited for an Interview should recieve an Email allowing them to schedule a time with the Gesher Group Board.
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
