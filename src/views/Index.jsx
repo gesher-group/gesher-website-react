@@ -53,6 +53,10 @@ import Icons from "./IndexSections/Icons.jsx";
 import Login from "./IndexSections/Login.jsx";
 import Download from "./IndexSections/Download.jsx";
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-107298827-2');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 class Index extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;

@@ -50,6 +50,9 @@ import 'react-vertical-timeline-component/style.min.css';
 import Typeform from 'components/Typeform.jsx';
 
 import training from "../../assets/img/theme/training.jpg";
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-107298827-2');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 class Students extends React.Component {
