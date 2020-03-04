@@ -290,7 +290,7 @@ class Students extends React.Component {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            date="3/08/2020"
+                            date="3/02/2020"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             icon={''}
                         >
