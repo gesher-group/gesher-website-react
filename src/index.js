@@ -29,9 +29,15 @@ import Login from "views/examples/Login.jsx";
 import Profile from "views/examples/Profile.jsx";
 import Register from "views/examples/Register.jsx";
 import Students from "views/pages/Students.jsx";
+import {Helmet} from "react-helmet";
 
 ReactDOM.render(
   <BrowserRouter>
+      <Helmet>
+      <title>Gesher Group</title>
+      <meta name="description" content={"UCSC's Premier Consulting Group"} />
+      <meta name="og:image" content={"assets/img/brand/geshblue.png"} />
+    </Helmet>
     <Switch>
       <Route path="/" exact render={props => <Index {...props} />} />
       <Route
