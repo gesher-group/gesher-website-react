@@ -52,6 +52,7 @@ import Carousel from "./IndexSections/Carousel.jsx";
 import Icons from "./IndexSections/Icons.jsx";
 import Login from "./IndexSections/Login.jsx";
 import Download from "./IndexSections/Download.jsx";
+import { Helmet } from "react-helmet";
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-107298827-2');
@@ -66,6 +67,11 @@ class Index extends React.Component {
   render() {
     return (
       <>
+      <Helmet>
+        <title>Gesher Group</title>
+        <meta name="description" content={"UCSC's Premier Consulting Group"} />
+        <meta name="og:image" content={"assets/img/brand/geshblue.png"} />
+      </Helmet>
         <DemoNavbar />
         {/* <DemoNavbar /> */}
         <main ref="main">
