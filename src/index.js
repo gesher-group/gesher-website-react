@@ -33,7 +33,7 @@ import {Helmet} from "react-helmet";
 
 ReactDOM.render(
   <BrowserRouter>
-      <Helmet>
+    <Helmet>
       <title>Gesher Group</title>
       <meta name="description" content={"UCSC's Premier Consulting Group"} />
       <meta name="og:image" content={"assets/img/brand/geshblue.png"} />
