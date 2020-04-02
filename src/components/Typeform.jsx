@@ -27,7 +27,7 @@ class Typeform extends React.Component {
             this.typeformEmbed = tf;
           }}
         />
-        <Button className="btn primary" onClick={this.openForm} color={this.props.color} size="lg" type="button" style={{ cursor: 'pointer'}}>
+        <Button className="btn primary" onClick={this.openForm} color={this.props.color} size="lg" type="button" style={{ cursor: 'pointer'}} disabled={this.props.disabled}>
           Apply here
         </Button>
       </div>

@@ -86,7 +86,7 @@ class Students extends React.Component {
                                     Check out our timeline below to see when we're recruiting. We recruit mainly in Fall and Spring quarters, so check back before either quarter to apply.
                                 </p>
                                 <div style={{textAlign:'center'}}>
-                                <Typeform color="success"/>
+                                {/*<Typeform color="success"/>*/}
                                 </div>
                             </Col>
                         </Row>
@@ -315,14 +315,14 @@ class Students extends React.Component {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="04/02/2020"
+                            date="04/01/2020"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                             icon={''}
                         >
                             <h3 className="vertical-timeline-element-title">Applications Closed</h3>
                             <p>
-                                Last day to submit applications for our Spring 2020 recruitment season. Applications due by 11:59pm on 04/02/2020.
+                                Last day to submit applications for our Spring 2020 recruitment season. Applications due by 11:59pm on 04/01/2020.
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -361,7 +361,7 @@ class Students extends React.Component {
                     </VerticalTimeline>
                 </section>
                 <section className="section section-shaped" style={{textAlign: "center",  background: "rgb(247,248,250)", background: "linear-gradient(180deg, rgba(247,248,250,1) 7%, rgba(82,95,127,1) 100%)"}}>
-                    <Typeform/>
+                   {/* <Typeform/> */}
                 </section>
                 <Footer />
             </>

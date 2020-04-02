@@ -121,7 +121,7 @@ class DemoNavbar extends React.Component {
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
-                    <Typeform color={this.props.color}/>
+                    {/*<Typeform color={this.props.color} disabled={true}/> Applcations Component */}
                   </NavItem>
                 </Nav>
               </UncontrolledCollapse>
