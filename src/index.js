@@ -51,11 +51,11 @@ ReactDOM.render(
         exact
         render={props => <Profile {...props} />}
       />
-      <Route
+      {/* <Route
         path="/register-page"
         exact
         render={props => <Register {...props} />}
-      />
+      /> */}
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
