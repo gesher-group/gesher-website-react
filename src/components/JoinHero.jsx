@@ -16,7 +16,7 @@
 
 */
 import React from "react";
-import BackgroundImage from '../assets/img/theme/gesher-55.jpg';
+import BackgroundImage from '../assets/img/theme/gesher-55-cropped.jpg';
 
 // reactstrap components
 import { Button, Container, Row, Col, Img } from "reactstrap";
