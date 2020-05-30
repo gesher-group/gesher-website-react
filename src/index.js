@@ -28,7 +28,7 @@ import Landing from "views/examples/Landing.jsx";
 import Login from "views/examples/Login.jsx";
 import Profile from "views/examples/Profile.jsx";
 import Register from "views/examples/Register.jsx";
-import Students from "views/pages/Students.jsx";
+import Join from "views/pages/Join.jsx";
 import {Helmet} from "react-helmet";
 
 ReactDOM.render(
@@ -45,7 +45,7 @@ ReactDOM.render(
         exact
         render={props => <Landing {...props} />}
       />
-      <Route path="/students" exact render={props => <Students {...props} />} />
+      <Route path="/join" exact render={props => <Join {...props} />} />
       <Route
         path="/profile-page"
         exact

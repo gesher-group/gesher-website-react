@@ -21,7 +21,6 @@ import BackgroundImage from '../assets/img/theme/gesher-55.jpg';
 // reactstrap components
 import { Button, Container, Row, Col, Img } from "reactstrap";
 
-
 var sectionStyle = {
   width: "100%",
   height: "100%",
@@ -30,7 +29,7 @@ var sectionStyle = {
   backgroundSize: "cover"
 };
 
-class StudentHero extends React.Component {
+class JoinHero extends React.Component {
   render() {
     return (
       <>
@@ -89,4 +88,4 @@ class StudentHero extends React.Component {
   }
 }
 
-export default StudentHero;
+export default JoinHero;

@@ -43,7 +43,7 @@ import CardsFooter from "components/Footers/CardsFooter.jsx";
 // index page sections
 import Download from "../IndexSections/Download.jsx";
 import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
-import StudentHero from "components/StudentHero.jsx";
+import JoinHero from "components/JoinHero.jsx";
 import Footer from "../IndexSections/Footer.jsx";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
@@ -55,7 +55,7 @@ ReactGA.initialize('UA-107298827-2');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 
-class Students extends React.Component {
+class Join extends React.Component {
     state = {
         trainingModal: false,
         workModal: false,
@@ -74,7 +74,7 @@ class Students extends React.Component {
         return (
             <>
                 <DemoNavbar color="success"/>
-                <StudentHero />
+                <JoinHero />
                 <section className="section section-shaped">
                     <Container>
                         <Row>
@@ -369,4 +369,4 @@ class Students extends React.Component {
     }
 }
 
-export default Students;
+export default Join;

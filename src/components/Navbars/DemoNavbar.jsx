@@ -89,19 +89,19 @@ class DemoNavbar extends React.Component {
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
                     <NavLink
-                      href="/students"
+                      href="/join"
                     >
-                      Students
+                      Join
                     </NavLink>
                   </NavItem>
                                     <NavItem>
                     <NavLink
-                      href="/clients"
+                      href="/services"
                       id="tooltipclients"
                       target="_blank"
                       disabled
                     >
-                      Clients
+                      Services
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltipclients">
                       Under Construction
@@ -114,7 +114,7 @@ class DemoNavbar extends React.Component {
                       href="#"
                       disabled
                     >
-                      Teams
+                      About Us
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltipteams">
                       Under Construction
