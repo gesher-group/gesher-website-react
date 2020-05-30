@@ -29,6 +29,7 @@ import Login from "views/examples/Login.jsx";
 import Profile from "views/examples/Profile.jsx";
 import Register from "views/examples/Register.jsx";
 import Join from "views/pages/Join.jsx";
+import Teams from "views/pages/Teams.jsx";
 import {Helmet} from "react-helmet";
 
 ReactDOM.render(
@@ -46,6 +47,12 @@ ReactDOM.render(
         render={props => <Landing {...props} />}
       />
       <Route path="/join" exact render={props => <Join {...props} />} />
+      <Route path="/teams" exact render={props => <Teams {...props} />} />
+    </Switch>
+    {/* 
+      
+      
+      
       <Route
         path="/profile-page"
         exact
@@ -57,7 +64,7 @@ ReactDOM.render(
         render={props => <Register {...props} />}
       />
       <Redirect to="/" />
-    </Switch>
+     */}
   </BrowserRouter>,
   document.getElementById("root")
 );
