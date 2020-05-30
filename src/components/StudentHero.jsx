@@ -16,9 +16,19 @@
 
 */
 import React from "react";
+import BackgroundImage from '../assets/img/theme/gesher-55.jpg';
 
 // reactstrap components
 import { Button, Container, Row, Col, Img } from "reactstrap";
+
+
+var sectionStyle = {
+  width: "100%",
+  height: "100%",
+  backgroundImage: "url(" + BackgroundImage + ")",
+  backgroundPosition: "center",
+  backgroundSize: "cover"
+};
 
 class StudentHero extends React.Component {
   render() {
@@ -26,9 +36,10 @@ class StudentHero extends React.Component {
       <>
         <div className="position-relative">
           {/* Hero for FREE version */}
+          <section style= {sectionStyle}>
           <section className="section section-lg section-hero section-shaped">
             {/* Background circles */}
-            <div className="shape shape-style-1 shape-default">
+            {/* <div className="shape shape-style-1 shape-default">
               <span className="span-150" />
               <span className="span-50" />
               <span className="span-50" />
@@ -39,7 +50,7 @@ class StudentHero extends React.Component {
               <span className="span-100" />
               <span className="span-50" />
               <span className="span-100" />
-            </div>
+            </div> */}
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
@@ -55,7 +66,7 @@ class StudentHero extends React.Component {
               </div>
             </Container>
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -69,7 +80,8 @@ class StudentHero extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
+            </div> */}
+          </section>
           </section>
         </div>
       </>

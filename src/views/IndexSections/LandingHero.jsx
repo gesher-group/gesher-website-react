@@ -18,20 +18,38 @@
 import React from "react";
 // import {ImageBackground} from 'react-native';
 
+import BackgroundImage from '../../assets/img/theme/UCSCMcHenry.jpg';
+
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
+
+var sectionStyle = {
+  width: "100%",
+  height: "100vh",
+  backgroundImage: "url(" + BackgroundImage + ")",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+  // padding: "200px, 0px, 200px"
+};
+
+var containerStyle = {
+  position: "relative",
+  top: "50%",
+  transform: "translateY(-50%)"
+};
 
 class Hero extends React.Component {
   render() {
     return (
       <>
         <div className="position-relative">
+          <section style= {sectionStyle}>
           {/* Hero for FREE version */}
           {/* <ImageBackground source={require('../../assets/img/theme/index-header.jpg')} style={{width: '100%', height: '100%'}}> */}
             {/* <section> */}
-            <section className="bg-gradient-default section section-xl section-hero section-shaped">
+            {/* <section className="bg-gradient-default section section-xl section-hero section-shaped"> */}
               {/* Background circles */}
-              <div className="shape shape-style-1 shape-default">
+              {/* <div className="shape shape-style-1 shape-default">
                 <span className="span-150" />
                 <span className="span-50" />
                 <span className="span-50" />
@@ -42,8 +60,8 @@ class Hero extends React.Component {
                 <span className="span-100" />
                 <span className="span-50" />
                 <span className="span-100" />
-              </div>
-              <Container className="shape-container d-flex align-items-center py-lg">
+              </div> */}
+              <Container className="shape-container d-flex align-items-center py-lg" style={containerStyle}>
                 <div className="col px-0">
                   <Row className="align-items-center justify-content-center">
                     <Col className="text-center" lg="6">
@@ -60,45 +78,6 @@ class Hero extends React.Component {
                       <p className="lead text-white">
                         Bridging the classroom to the workplace.
                       </p>
-                      {/* <div className="btn-wrapper mt-5">
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                          size="lg"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">Download React</span>
-                        </Button>{" "}
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="github"
-                          href="https://github.com/creativetimofficial/argon-design-system-react"
-                          size="lg"
-                          target="_blank"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-github" />
-                          </span>
-                          <span className="btn-inner--text">
-                            <span className="text-warning mr-1">Star us</span>
-                            on Github
-                          </span>
-                        </Button>
-                      </div>
-                      <div className="mt-5">
-                        <small className="text-white font-weight-bold mb-0 mr-2">
-                          *proudly coded by
-                        </small>
-                        <img
-                          alt="..."
-                          className="ml-1"
-                          style={{ height: "28px" }}
-                          src={require("assets/img/brand/creativetim-white-slim.png")}
-                        />
-                      </div> */}
                     </Col>
                   </Row>
                   {/* <Row className="py-5" /> */}
@@ -120,7 +99,8 @@ class Hero extends React.Component {
                   /> */}
                 </svg>
               </div>
-            </section>
+            {/* </section> */}
+          </section>
           {/* </ImageBackground> */}
         </div>
       </>
