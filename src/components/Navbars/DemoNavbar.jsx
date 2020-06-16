@@ -94,18 +94,12 @@ class DemoNavbar extends React.Component {
                       Join
                     </NavLink>
                   </NavItem>
-                                    <NavItem>
+                  <NavItem>
                     <NavLink
                       href="/services"
-                      id="tooltipclients"
-                      target="_blank"
-                      disabled
                     >
                       Services
                     </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltipclients">
-                      Under Construction
-                    </UncontrolledTooltip>
                   </NavItem>
                                     <NavItem>
                     <NavLink

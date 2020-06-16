@@ -25,6 +25,7 @@ import "assets/scss/argon-design-system-react.scss";
 
 import Index from "views/Index.jsx";
 import Landing from "views/examples/Landing.jsx";
+import Services from "views/pages/Services.jsx";
 import Login from "views/examples/Login.jsx";
 import Profile from "views/examples/Profile.jsx";
 import Register from "views/examples/Register.jsx";
@@ -47,6 +48,7 @@ ReactDOM.render(
         render={props => <Landing {...props} />}
       />
       <Route path="/join" exact render={props => <Join {...props} />} />
+      <Route path="/services" exact render={props => <Services {...props} />} />
       <Route path="/teams" exact render={props => <Teams {...props} />} />
     </Switch>
     {/* 
