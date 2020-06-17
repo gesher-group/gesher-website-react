@@ -20,7 +20,7 @@ import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col, Img } from "reactstrap";
 
-class TeamsHero extends React.Component {
+class ServicesHero extends React.Component {
   render() {
     return (
       <>
@@ -74,4 +74,4 @@ class TeamsHero extends React.Component {
   }
 }
 
-export default TeamsHero;
+export default ServicesHero;
