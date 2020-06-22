@@ -25,6 +25,7 @@ import {
     Button,
     Card,
     CardBody,
+    Media,
     CardImg,
     FormGroup,
     Input,
@@ -85,10 +86,46 @@ class Services extends React.Component {
                   </p>
                 </Col>
               </Row>
-              <Row>
+              <Row className="pb-sm">
                 <Card className="w-100 border-primary">
                     <CardHeader>
                     <h2 className="display-4">Data Analytics</h2>
+                    </CardHeader>
+                    <CardBody>
+                        <Row>
+                            <Col>
+                            <Row className="pl-sm">
+                              <h2>IP Society</h2>
+                            </Row>
+                            <Row className="pl-sm">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel luctus arcu, nec sollicitudin dui. Donec quis sagittis justo. Etiam nec blandit velit. Sed venenatis sapien vel erat maximus, id feugiat dui semper. Phasellus at quam vestibulum, placerat tortor eget, euismod elit. Nam posuere eleifend convallis. Nam ante metus, tristique sed mauris at, semper semper leo. 
+                            </Row>
+                            <Row className="pl-sm pt-sm">
+                            <a href="https://www.google.com">Our case study and more info can be found here </a>
+                            </Row>
+                            </Col>
+                            <Col className="justify-content-right text-center">
+
+                                <img
+                              alt="..."
+                              className="roundedimg-center img-fluid shadow shadow-lg--hover"
+                              src={require("assets/img/ip-logo4.png")}
+                              style={{ width: "200px" }}
+                            />
+                            <div className="justify-content-center text-center pt-sm">
+                              <h5 className="font-weight-bold font-italic">"Gesher Group helped our business grow beyond what we thought was possible!"</h5>
+                              <h6>Patrick O'Reilly, Founder</h6>
+                            </div>
+
+                            </Col>
+                        </Row>
+                    </CardBody>
+                </Card>
+              </Row>
+              <Row>
+                <Card className="w-100 border-primary">
+                    <CardHeader>
+                    <h2 className="display-4">Marketing</h2>
                     </CardHeader>
                     <CardBody>
                         <Row>
