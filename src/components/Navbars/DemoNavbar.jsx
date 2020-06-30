@@ -39,8 +39,9 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
+import Scroll from 'react-scroll'
 import Typeform from "../Typeform.jsx";
-
+const ScrollLink = Scroll.ScrollLink;
 class DemoNavbar extends React.Component {
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
@@ -86,7 +87,7 @@ class DemoNavbar extends React.Component {
                   </Row>
                 </div>
                
-                <Nav className="align-items-lg-center ml-lg-auto" navbar>
+                <Nav className="navbar-nav-hover align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
                     <NavLink
                       href="/join"
@@ -95,13 +96,35 @@ class DemoNavbar extends React.Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
+                    <UncontrolledDropdown nav>
+                      <DropdownToggle nav>
                     <NavLink
                       href="/services"
                     >
                       Services
                     </NavLink>
+                      </DropdownToggle>
+                      <DropdownMenu>
+                      <DropdownItem>
+                        <ScrollLink to="/services#data_analytics">
+                          Data Analytics
+                        </ScrollLink>
+
+                      </DropdownItem>
+                      <DropdownItem to="/services#marketing" tag={Link}>
+                        Digital Marketing
+                      </DropdownItem>
+                      <DropdownItem to="/services#biz_dev" tag={Link}>
+                        Business Development
+                      </DropdownItem>
+                      <DropdownItem divider />
+                      <DropdownItem to="/services" tag={Link}>
+                        Work with us
+                      </DropdownItem>
+                    </DropdownMenu>
+                    </UncontrolledDropdown>
                   </NavItem>
-                                    <NavItem>
+                  <NavItem>
                     <NavLink
                       id="tooltipteams"
                       target="_blank"
@@ -115,7 +138,7 @@ class DemoNavbar extends React.Component {
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
-                    {/*<Typeform color={this.props.color} disabled={true}/> Applcations Component */}
+                    <Typeform color={this.props.color} disabled={true} text={"Applications Closed"}/>
                   </NavItem>
                 </Nav>
               </UncontrolledCollapse>

@@ -26,7 +26,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 var sectionStyle = {
   width: "100%",
   height: "100vh",
-  backgroundImage: "url(" + BackgroundImage + ")",
+  background: "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(" + BackgroundImage + ")",
   backgroundPosition: "center",
   backgroundSize: "cover",
   // padding: "200px, 0px, 200px"

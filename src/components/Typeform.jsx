@@ -28,7 +28,7 @@ class Typeform extends React.Component {
           }}
         />
         <Button className="btn primary" onClick={this.openForm} color={this.props.color} size="lg" type="button" style={{ cursor: 'pointer'}} disabled={this.props.disabled}>
-          Apply here
+          {this.props.text}
         </Button>
       </div>
     );
