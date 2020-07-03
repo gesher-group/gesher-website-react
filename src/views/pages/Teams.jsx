@@ -100,30 +100,15 @@ class Students extends React.Component {
                         <small className="h6 text-muted">President<br></br>CS Class of 2021</small>
                       </h5>
                       <div className="mt-3">
-                        <Button
-                          className="btn-icon-only rounded-circle"
-                          color="warning"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="warning"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="warning"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/zzulanas/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
                       </div>
                     </div>
                   </div>
@@ -144,30 +129,15 @@ class Students extends React.Component {
                         </small>
                       </h5>
                       <div className="mt-3">
-                        <Button
-                          className="btn-icon-only rounded-circle"
-                          color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="primary"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/zzulanas/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
                       </div>
                     </div>
                   </div>
@@ -186,30 +156,15 @@ class Students extends React.Component {
                         <small className="h6 text-muted">Project Manager<br></br>BME Class of 2021</small>
                       </h5>
                       <div className="mt-3">
-                        <Button
-                          className="btn-icon-only rounded-circle"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/zzulanas/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
                       </div>
                     </div>
                   </div>
@@ -228,30 +183,15 @@ class Students extends React.Component {
                         <small className="h6 text-muted">Director of Marketing<br></br>BME Class of 2022</small>
                       </h5>
                       <div className="mt-3">
-                        <Button
-                          className="btn-icon-only rounded-circle"
-                          color="success"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-twitter" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="success"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-facebook" />
-                        </Button>
-                        <Button
-                          className="btn-icon-only rounded-circle ml-1"
-                          color="success"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                        >
-                          <i className="fa fa-dribbble" />
-                        </Button>
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/zzulanas/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+                      
                       </div>
                     </div>
                   </div>
