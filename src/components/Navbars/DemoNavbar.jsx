@@ -85,7 +85,7 @@ class DemoNavbar extends React.Component {
                     </Col>
                   </Row>
                 </div>
-               
+
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
                     <NavLink
@@ -103,16 +103,11 @@ class DemoNavbar extends React.Component {
                   </NavItem>
                                     <NavItem>
                     <NavLink
-                      id="tooltipteams"
-                      target="_blank"
-                      href="#"
-                      disabled
+                      href="/teams"
                     >
                       About Us
                     </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltipteams">
-                      Under Construction
-                    </UncontrolledTooltip>
+                  
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
                     {/*<Typeform color={this.props.color} disabled={true}/> Applcations Component */}

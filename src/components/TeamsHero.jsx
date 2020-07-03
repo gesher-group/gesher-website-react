@@ -45,7 +45,7 @@ class TeamsHero extends React.Component {
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="6">
                     <h1 className="display-1 text-white">
-                        Our Services
+                        About Us
                     </h1>
                   </Col>
                 </Row>

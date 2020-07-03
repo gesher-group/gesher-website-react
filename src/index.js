@@ -51,10 +51,10 @@ ReactDOM.render(
       <Route path="/services" exact render={props => <Services {...props} />} />
       <Route path="/teams" exact render={props => <Teams {...props} />} />
     </Switch>
-    {/* 
-      
-      
-      
+    {/*
+
+
+
       <Route
         path="/profile-page"
         exact

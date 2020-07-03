@@ -79,11 +79,9 @@ class Students extends React.Component {
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">Gesher Group Board and Project Managers</h2>
+                  <h2 className="display-3">Meet Our Members</h2>
                   <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
+
                   </p>
                 </Col>
               </Row>
@@ -98,8 +96,8 @@ class Students extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Ryan Tompson</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        <span className="d-block mb-1">Zach Zulanas</span>
+                        <small className="h6 text-muted">President<br></br>CS Class of 2021</small>
                       </h5>
                       <div className="mt-3">
                         <Button
@@ -140,9 +138,9 @@ class Students extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Romina Hadid</span>
+                        <span className="d-block mb-1">Jack Peabody</span>
                         <small className="h6 text-muted">
-                          Marketing Strategist
+                          Vice President<br></br>IT Class of 2021
                         </small>
                       </h5>
                       <div className="mt-3">
@@ -184,8 +182,8 @@ class Students extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Alexander Smith</span>
-                        <small className="h6 text-muted">UI/UX Designer</small>
+                        <span className="d-block mb-1">Matthew Lee</span>
+                        <small className="h6 text-muted">Project Manager<br></br>BME Class of 2021</small>
                       </h5>
                       <div className="mt-3">
                         <Button
@@ -226,8 +224,8 @@ class Students extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">John Doe</span>
-                        <small className="h6 text-muted">Founder and CEO</small>
+                        <span className="d-block mb-1">Yuji Tanaka</span>
+                        <small className="h6 text-muted">Director of Marketing<br></br>BME Class of 2022</small>
                       </h5>
                       <div className="mt-3">
                         <Button
@@ -257,11 +255,109 @@ class Students extends React.Component {
                       </div>
                     </div>
                   </div>
+
                 </Col>
               </Row>
+              <h1 className="h1">
+                <br></br>
+                  <center>Our Purpose</center><br></br>
+              </h1>
+              <Row>
+              <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                <div className="px-4">
+                <center>  <img
+
+
+                    src={require("assets/img/theme/rocket.png")}
+
+
+                  /></center>
+                  <div className="pt-4 text-center">
+                    <h5 className="title">
+                      <span className="d-block mb-1">We exceed Expectations</span>
+
+                    </h5>
+                    <div className="mt-3">
+
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                <div className="px-4">
+                <center>  <img
+
+
+                    src={require("assets/img/theme/gear.png")}
+
+
+                  /></center>
+                  <div className="pt-4 text-center">
+                    <h5 className="title">
+                      <span className="d-block mb-1">We Support Our Clients</span>
+
+                    </h5>
+                    <div className="mt-3">
+
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                <div className="px-4">
+                <center>  <img
+
+
+                    src={require("assets/img/theme/magglass.png")}
+
+
+                  /></center>
+                  <div className="pt-4 text-center">
+                    <h5 className="title">
+                      <span className="d-block mb-1">We Solve the Problem</span>
+
+                    </h5>
+                    <div className="mt-3">
+
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                <div className="px-4">
+                <center>  <img
+
+
+                    src={require("assets/img/theme/smiley.png")}
+
+
+                  /></center>
+                  <div className="pt-4 text-center">
+                    <h5 className="title">
+                      <span className="d-block mb-1">We Get the Job Done</span>
+
+                    </h5>
+                    <div className="mt-3">
+
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              </Row>
+              <p>
+              <br></br>
+              Gesher Group Consulting seeks to exceed expectations and support our clients in creating a competitive advantage.
+              We work with 4-5 clients every quarter applying
+              the newest tools in our repertoire, continuously updating our
+              technique. Our biggest strength is in our consultants, top
+              talent sourced from the best at UC Santa Cruz, each with bright
+              and innovative ideas not yet constrained by traditional thinking.
+              </p>
+
             </Container>
           </section>
-          
+
+
             <Footer />
             </>
         )
