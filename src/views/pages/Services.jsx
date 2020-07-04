@@ -79,15 +79,50 @@ class Services extends React.Component {
                 <section className="section section-lg">
             <Container>
               <Row className="justify-content-left text-left mb-lg">
-                <Col lg="8">
-                  <h2 className="display-3">Take a look at our previous projects</h2>
-                  <p className="lead text-muted">
-                    Lorem Ipsum yadda yadda put content here.
-                  </p>
+                <Col lg="4">
+                  <Card className="w-100 card-lift h-100 shadow border-5">
+                    <CardBody className="py-5">
+                      <h2 className="display-3">Digital Marketing</h2>
+                      <p className="lead text-muted">
+                        Lorem Ipsum yadda yadda put content here.
+                      </p>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col lg="4">
+                <Card className="w-100 h-100 card-lift shadow border-5">
+                    <CardBody className="py-5">
+                      <h2 className="display-3">Data Analytics</h2>
+                      <p className="lead text-muted">
+                        Lorem Ipsum yadda yadda put content here.
+                      </p>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col lg="4">
+                <Card className="w-100 card-lift h-100 shadow border-5">
+                    <CardBody className="py-5">
+                      <h2 className="display-3">Business Development</h2>
+                      <p className="lead text-muted">
+                        Lorem Ipsum yadda yadda put content here.
+                      </p>
+                    </CardBody>
+                  </Card>
                 </Col>
               </Row>
+              </Container>
+              </section>
+              <section className="section section-lg" style={{'background':'#d9d9d9'}}>
+              <Container>
+              <Row className="pb-md">
+                <div className="justify-content-left text-left">
+                  <h1>
+                    <strong>Take a look at some of what some of our clients have said about our work</strong>
+                  </h1>
+                </div>
+              </Row>
               <Row className="pb-sm" style={{}}>
-                <Card className="w-100 border-primary" style={{backgroundColor:"red", color:"white"}}>
+                <Card className="w-100 card-lift h-100 shadow border-5" style={{}}>
                     {/* <CardHeader style={{backgroundColor:"red"}}>
                     <h2 className="display-4" style={{color:"white"}}>Data Analytics</h2>
                     </CardHeader> */}
@@ -95,7 +130,7 @@ class Services extends React.Component {
                         <Row>
                             <Col>
                             <Row className="pl-sm" >
-                              <h2 style={{color:"white"}}><strong>Data Analytics</strong></h2>
+                              <h2 ><strong>IP Society</strong></h2>
                             </Row>
                             <Row className="pl-sm">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel luctus arcu, nec sollicitudin dui. Donec quis sagittis justo. Etiam nec blandit velit. Sed venenatis sapien vel erat maximus, id feugiat dui semper. Phasellus at quam vestibulum, placerat tortor eget, euismod elit. Nam posuere eleifend convallis. Nam ante metus, tristique sed mauris at, semper semper leo. 
@@ -115,7 +150,7 @@ class Services extends React.Component {
                               style={{ width: "200px", backgroundColor:"white" }}
                             />
                             <div className="justify-content-center text-center pt-sm">
-                              <h5 className="font-weight-bold font-italic">"Gesher Group helped our business grow beyond what we thought was possible!"</h5>
+                              <h5 className="font-weight-bold font-italic">"Gesher Group were professional, easy to work with, and had good ideas for improving our online presence and contributing to our business."</h5>
                               <h6>Patrick O'Reilly, Founder</h6>
                             </div>
 
@@ -124,8 +159,9 @@ class Services extends React.Component {
                     </CardBody>
                 </Card>
               </Row>
+
               <Row className="pb-sm" style={{}}>
-                <Card className="w-100 border-primary" style={{backgroundColor:"#2dce89", color:"white"}}>
+                <Card className="w-100 card-lift h-100 shadow border-5" style={{backgroundColor:"#172b4d", color:"white"}}>
                     {/* <CardHeader style={{backgroundColor:"red"}}>
                     <h2 className="display-4" style={{color:"white"}}>Data Analytics</h2>
                     </CardHeader> */}
@@ -133,7 +169,7 @@ class Services extends React.Component {
                         <Row>
                             <Col>
                             <Row className="pl-sm" >
-                              <h2 style={{color:"white"}}><strong>Marketing</strong></h2>
+                              <h2 style={{color:"white"}}><strong>Small Business Development Center of Santa Cruz</strong></h2>
                             </Row>
                             <Row className="pl-sm">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel luctus arcu, nec sollicitudin dui. Donec quis sagittis justo. Etiam nec blandit velit. Sed venenatis sapien vel erat maximus, id feugiat dui semper. Phasellus at quam vestibulum, placerat tortor eget, euismod elit. Nam posuere eleifend convallis. Nam ante metus, tristique sed mauris at, semper semper leo. 
@@ -145,67 +181,16 @@ class Services extends React.Component {
                             </Row>
                             </Col>
                             <Col className="justify-content-right text-center">
-                            <h2 className="pb-sm">IP Society</h2>
                                 <img
                               alt="..."
                               className="roundedimg-center img-fluid shadow shadow-lg--hover"
-                              src={require("assets/img/ip-logo4.png")}
+                              src={require("assets/img/theme/america-sbdc.jpg")}
                               style={{ width: "200px", backgroundColor:"white" }}
                             />
 
-
-                            </Col>
-                            <Col>
-                            <Row className="pr-md pb-sm">
-                            <div className="justify-content-center text-center pt-sm p-sm">
-                              <h5 className="font-weight-bold font-italic">"Gesher Group helped our business grow beyond what we thought was possible!"</h5>
-                              <h6>Patrick O'Reilly, Founder</h6>
-                            </div>
-                            </Row>
-                            <Row className="pr-sm">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel luctus arcu, nec sollicitudin dui. Donec quis sagittis justo. Etiam nec blandit velit.
-                            </Row>
-                            <Row className="pr-sm pt-sm">
-                            <a href="https://www.google.com">Our case study and more info can be found here </a>
-                            </Row>
-                            </Col>
-                        </Row>
-                    </CardBody>
-                </Card>
-              </Row>
-
-              <Row className="pb-sm" style={{}}>
-                <Card className="w-100 border-primary" style={{backgroundColor:"#172b4d", color:"white"}}>
-                    {/* <CardHeader style={{backgroundColor:"red"}}>
-                    <h2 className="display-4" style={{color:"white"}}>Data Analytics</h2>
-                    </CardHeader> */}
-                    <CardBody>
-                        <Row>
-                            <Col>
-                            <Row className="pl-sm" >
-                              <h2 style={{color:"white"}}><strong>Business Development</strong></h2>
-                            </Row>
-                            <Row className="pl-sm">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel luctus arcu, nec sollicitudin dui. Donec quis sagittis justo. Etiam nec blandit velit. Sed venenatis sapien vel erat maximus, id feugiat dui semper. Phasellus at quam vestibulum, placerat tortor eget, euismod elit. Nam posuere eleifend convallis. Nam ante metus, tristique sed mauris at, semper semper leo. 
-                            </Row>
-                            <Row className="pl-sm pt-sm">
-                            <Button color="primary" type="button">
-                              <span>Case Study</span>
-                            </Button>
-    
-                            </Row>
-                            </Col>
-                            <Col className="justify-content-right text-center">
-
-                                <img
-                              alt="..."
-                              className="roundedimg-center img-fluid shadow shadow-lg--hover"
-                              src={require("assets/img/ip-logo4.png")}
-                              style={{ width: "200px", backgroundColor:"white" }}
-                            />
-                            <div className="justify-content-center text-center pt-sm">
-                              <h5 className="font-weight-bold font-italic">"Gesher Group helped our business grow beyond what we thought was possible!"</h5>
-                              <h6>Patrick O'Reilly, Founder</h6>
+                            <div className="justify-content-center text-center pt-sm p-sm" style={{color:"white"}}>
+                              <h5 className="font-weight-bold font-italic" style={{color:"white"}}>"Gesher gave us the courage and vision to implement a new social media strategy. Their work will continue to create impact after their engagement is over."</h5>
+                              <h6 style={{color:"white"}}>Brandon Napoli, Founder</h6>
                             </div>
 
                             </Col>
@@ -213,7 +198,6 @@ class Services extends React.Component {
                     </CardBody>
                 </Card>
               </Row>
-
               
               {/* <Row>
                 <Card className="w-100 border-primary">
@@ -232,6 +216,11 @@ class Services extends React.Component {
                     </CardBody>
                 </Card>
               </Row> */}
+            </Container>
+          </section>
+          <section>
+            <Container>
+              This is where the company search will go
             </Container>
           </section>
           
