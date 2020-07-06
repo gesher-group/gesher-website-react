@@ -133,7 +133,7 @@ class Services extends React.Component {
                               <h2 ><strong>IP Society</strong></h2>
                             </Row>
                             <Row className="pl-sm">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel luctus arcu, nec sollicitudin dui. Donec quis sagittis justo. Etiam nec blandit velit. Sed venenatis sapien vel erat maximus, id feugiat dui semper. Phasellus at quam vestibulum, placerat tortor eget, euismod elit. Nam posuere eleifend convallis. Nam ante metus, tristique sed mauris at, semper semper leo. 
+                            Coming into this project it was imperative we gained clarity on IPSociety’s mission so we could create meaningful, impactful solutions. At the end of our partnership we presented IPsociety with a full revamp of their digital landing page, a strategic deck with actionable insights and solutions, and unique code to track patent trends and anomalies across industries. 
                             </Row>
                             <Row className="pl-sm pt-sm">
                             <Button color="primary" type="button">
