@@ -84,7 +84,7 @@ class Services extends React.Component {
                     <CardBody className="py-5">
                       <h2 className="display-3">Digital Marketing</h2>
                       <p className="lead text-muted">
-                        Lorem Ipsum yadda yadda put content here.
+                      We will explore key growth areas, responding to the rapidly evolving market and customer expectations.
                       </p>
                     </CardBody>
                   </Card>
@@ -94,7 +94,7 @@ class Services extends React.Component {
                     <CardBody className="py-5">
                       <h2 className="display-3">Data Analytics</h2>
                       <p className="lead text-muted">
-                        Lorem Ipsum yadda yadda put content here.
+                      We will guide your analytics initiatives to produce quantifiable outcomes, assisting in the discovery, management and application of the data.
                       </p>
                     </CardBody>
                   </Card>
@@ -104,7 +104,7 @@ class Services extends React.Component {
                     <CardBody className="py-5">
                       <h2 className="display-3">Business Development</h2>
                       <p className="lead text-muted">
-                        Lorem Ipsum yadda yadda put content here.
+                      Our team will discover and evaluate new sales opportunities. Rather than employing best practices, we find development gaps through innovative strategies and analyses specific to your business.
                       </p>
                     </CardBody>
                   </Card>
