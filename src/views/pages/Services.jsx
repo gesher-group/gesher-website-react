@@ -133,7 +133,7 @@ class Services extends React.Component {
                         <Row>
                             <Col>
                             <Row className="pl-sm" >
-                              <h2 style={{color:"white"}}><strong>Marketing</strong></h2>
+                              <h2 style={{color:"white"}}><strong>Digital Marketing</strong></h2>
                             </Row>
                             <Row className="pl-sm">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel luctus arcu, nec sollicitudin dui. Donec quis sagittis justo. Etiam nec blandit velit. Sed venenatis sapien vel erat maximus, id feugiat dui semper. Phasellus at quam vestibulum, placerat tortor eget, euismod elit. Nam posuere eleifend convallis. Nam ante metus, tristique sed mauris at, semper semper leo. 
