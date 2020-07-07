@@ -77,23 +77,58 @@ class Questions extends React.Component {
                 <QuestionsHero />
                 <section className="section section-lg">
             <Container>
+                  <h2 class="display-2"><strong><center>Frequently Asked Questions</center></strong></h2>
+                    <br />
+                      <p className="display-3"><strong>What does Gesher look for in applicants?</strong></p>
+                      <p class="lead text-muted">Lorem ipsum dolor</p>
+
+                      <br />
+                      <p className="display-3"><strong>How should I approach the Gesher Application: Resumes and Case Studies?</strong></p>
+                      <p class="lead text-muted">Lorem ipsum dolor</p>
+
+                      <br />
+                      <p className="display-3"><strong>How do I prepare for a case interview?</strong></p>
+                      <p class="lead text-muted">Lorem ipsum dolor</p>
+
+                      <br />
+                      <p className="display-3"><strong>What does integration into Gesher, professionally, and socially, look like?</strong></p>
+                      <p class="lead text-muted">Lorem ipsum dolor</p>
+
+                      <br />
+                      <p className="display-3"><strong>I’m not professionally interested in consulting, is Gesher still a good fit for me?</strong></p>
+                      <p class="lead text-muted">Lorem ipsum dolor</p>
+
+                      <br />
+                      <p class="display-3"><strong>What type of majors do you typically recruit? </strong></p>
+                      <p class="lead text-muted">Since we are a business consulting group, we mostly look for business focused candidates, however, we do have wide variety of engineering, earth science, and pre-med members.</p>
 
 
-                  <h2 className="display-3">What does Gesher look for in applicants?</h2>
+                      <p class="display-3"><strong>What happens if I cannot make the meetings? </strong></p>
+                      <p class="lead text-muted">Please email us with the reason why you cannot make the meeting. If you miss more than two meetings a quarter then we will have to sit down for a chat.</p>
 
-                  <br />
-                  <h2 className="display-3">How should I approach the Gesher Application: Resumes and Case Studies?</h2>
 
-                  <br />
-                  <h2 className="display-3">How do I prepare for a case interview?</h2>
+                      <p class="display-3"><strong>What sets Gesher apart from other student organizations such as fraternities/sororities? </strong></p>
+                      <p class="lead text-muted">Unlike other student organizations, Gesher group gives members the opportunity to work with real companies that no one else could otherwise gain in the classroom. </p>
 
-                  <br />
-                  <h2 className="display-3">What does integration into Gesher, professionally, and socially, look like?</h2>
 
-                  <br />
-                  <h2 className="display-3">I’m not professionally interested in consulting, is Gesher still a good fit for me?</h2>
-                  
-                  <br />
+                      <p class="display-3"><strong>I'm a senior&mdash;can I still apply? </strong></p>
+                      <p class="lead text-muted">As long as you’re a UCSC student, you’re welcome to apply. For 3rd year and on students, we typically like to see more work experience than earlier years.</p>
+
+
+                      <p class="display-3"><strong>What's the workload like? </strong></p>
+                      <p class="lead text-muted">You get out what you put in—but usually members spend 6-8 hours per week on client projects, and 2 hours in meetings.</p>
+
+                      <p class="display-3"><strong>How large is the team? </strong></p>
+                      <p class="lead text-muted">The team fluctuates in member size throughout the years. We try to keep Gesher at approximately 40 members each year. This increases the odds of each member becoming closer with one another.</p>
+
+
+                      <p class="display-3"><strong>How long does the application process take? </strong></p>
+                      <p class="lead text-muted">The application process ususally takes about 2 weeks. Each candidate that is accepted must make it past the application and interview process to become a full-time member.</p>
+
+                      <p class="display-3"><strong>Was your question not answered? Email us! </strong></p>
+                      <p class="lead text-muted">Email<a href='mailto:team@geshergroup.org' title='Email the team'> team@geshergroup.org </a>, and we’ll get back to you within 24 hours.</p>
+
+
 
             </Container>
           </section>
