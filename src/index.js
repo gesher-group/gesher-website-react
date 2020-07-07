@@ -31,6 +31,7 @@ import Profile from "views/examples/Profile.jsx";
 import Register from "views/examples/Register.jsx";
 import Join from "views/pages/Join.jsx";
 import Teams from "views/pages/Teams.jsx";
+import Questions from "views/pages/Faq.jsx";
 import {Helmet} from "react-helmet";
 
 ReactDOM.render(
@@ -50,6 +51,7 @@ ReactDOM.render(
       <Route path="/join" exact render={props => <Join {...props} />} />
       <Route path="/services" exact render={props => <Services {...props} />} />
       <Route path="/teams" exact render={props => <Teams {...props} />} />
+      <Route path="/faq" exact render={props => <Questions {...props} />} />
     </Switch>
     {/*
 

@@ -87,6 +87,13 @@ class DemoNavbar extends React.Component {
                 </div>
 
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
+                <NavItem>
+                  <NavLink
+                    href="/"
+                  >
+                    Home
+                  </NavLink>
+                </NavItem>
                   <NavItem>
                     <NavLink
                       href="/join"
@@ -107,12 +114,22 @@ class DemoNavbar extends React.Component {
                     >
                       About Us
                     </NavLink>
-                  
+
+                  </NavItem>
+
+                  <NavItem>
+                    <NavLink
+                      href="/faq"
+                    >
+                      FAQ
+                    </NavLink>
+
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
                     {/*<Typeform color={this.props.color} disabled={true}/> Applcations Component */}
                   </NavItem>
                 </Nav>
+
               </UncontrolledCollapse>
             </Container>
           </Navbar>

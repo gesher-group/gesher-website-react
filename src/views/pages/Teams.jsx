@@ -381,7 +381,7 @@ class Students extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Aditya Kuppili</span>
-                        <small className="h6 text-muted">Director of Affairs<br></br>CS Class of 2021</small>
+                        <small className="h6 text-muted">Director of Labs<br></br>CS Class of 2021</small>
                       </h5>
                       <div className="mt-3">
                       <Button

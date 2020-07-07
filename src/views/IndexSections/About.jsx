@@ -65,7 +65,7 @@ class About extends React.Component {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="font-weight-light">
-                  About
+                  Who We Are
                 </h1>
                 <p className="lead mt-4">
                   Gesher Group Consulting is a student-led organization that
