@@ -132,7 +132,7 @@ class Students extends React.Component {
                       <Button
                         className="btn-icon-only rounded-circle"
                         color="primary"
-                        href="https://www.linkedin.com/in/zzulanas/"
+                        href="https://www.linkedin.com/in/jack-peabody/"
 
                       >
                         <i className="fa fa-linkedin" />
@@ -159,7 +159,7 @@ class Students extends React.Component {
                       <Button
                         className="btn-icon-only rounded-circle"
                         color="primary"
-                        href="https://www.linkedin.com/in/zzulanas/"
+                        href="https://www.linkedin.com/in/matthew-lee-ucsc/"
 
                       >
                         <i className="fa fa-linkedin" />
@@ -186,18 +186,247 @@ class Students extends React.Component {
                       <Button
                         className="btn-icon-only rounded-circle"
                         color="primary"
-                        href="https://www.linkedin.com/in/zzulanas/"
+                        href="https://www.linkedin.com/in/yuji-tanaka/"
 
                       >
                         <i className="fa fa-linkedin" />
                       </Button>
-                      
+
                       </div>
                     </div>
                   </div>
 
                 </Col>
               </Row>
+              <br />
+              <Row>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={require("assets/img/theme/team-5-800x800.jpg")}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Daniel Franz</span>
+                        <small className="h6 text-muted">Project Manager<br></br>Econ Class of 2020</small>
+                      </h5>
+                      <div className="mt-3">
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/danielfranz820/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={require("assets/img/theme/team-6-800x800.jpg")}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Eric Flores</span>
+                        <small className="h6 text-muted">
+                          Project Manager<br></br>BME Class of 2020
+                        </small>
+                      </h5>
+                      <div className="mt-3">
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/ericfloress/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={require("assets/img/theme/team-7-800x800.jpg")}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Lila Hunter-Reay</span>
+                        <small className="h6 text-muted">Director of Affairs<br></br>Cog Sci Class of 2020</small>
+                      </h5>
+                      <div className="mt-3">
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/matthew-lee-ucsc/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={require("assets/img/theme/team-8-800x800.jpg")}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Maeve Black</span>
+                        <small className="h6 text-muted">Project Manager<br></br>Cog Sci Class of 2020</small>
+                      </h5>
+                      <div className="mt-3">
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/maeve-black-8ab86715a/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </Col>
+              </Row>
+              <br />
+              <Row>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={require("assets/img/theme/team-9-800x800.jpg")}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Daniel Franz</span>
+                        <small className="h6 text-muted">Director of Projects<br></br>Econ Class of 2021</small>
+                      </h5>
+                      <div className="mt-3">
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/oliver-calhoun-6086451a7/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={require("assets/img/theme/team-10-800x800.jpg")}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Sam Duman</span>
+                        <small className="h6 text-muted">
+                          Director of Affairs<br></br>BME Class of 2022
+                        </small>
+                      </h5>
+                      <div className="mt-3">
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/sam-duman/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={require("assets/img/theme/team-11-800x800.jpg")}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Aditya Kuppili</span>
+                        <small className="h6 text-muted">Director of Affairs<br></br>CS Class of 2021</small>
+                      </h5>
+                      <div className="mt-3">
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/aditya-kuppili-09469895/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={require("assets/img/theme/team-12-800x800.jpg")}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Conrad Pereira</span>
+                        <small className="h6 text-muted">Consultant<br></br>CS/TIM of 2021</small>
+                      </h5>
+                      <div className="mt-3">
+                      <Button
+                        className="btn-icon-only rounded-circle"
+                        color="primary"
+                        href="https://www.linkedin.com/in/conrad-pereira/"
+
+                      >
+                        <i className="fa fa-linkedin" />
+                      </Button>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </Col>
+              </Row>
+
               <h1 className="h1">
                 <br></br>
                   <center>Our Purpose</center><br></br>
