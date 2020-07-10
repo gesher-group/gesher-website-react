@@ -51,6 +51,8 @@ import Footer from "../IndexSections/Footer.jsx";
 import 'react-vertical-timeline-component/style.min.css';
 
 import training from "../../assets/img/theme/training.jpg";
+import IPCaseStudy from "../../assets/ip_case_study.pdf";
+import SBDCCaseStudy from "../../assets/sbdc_case_study.pdf";
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-107298827-2');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -158,7 +160,7 @@ class Services extends React.Component {
                             Coming into this project it was imperative we gained clarity on IPSociety’s mission so we could create meaningful, impactful solutions. At the end of our partnership we presented IPsociety with a full revamp of their digital landing page, a strategic deck with actionable insights and solutions, and unique code to track patent trends and anomalies across industries. 
                             </Row>
                             <Row className="pl-sm pt-sm">
-                            <Button color="primary" type="button" href="https://drive.google.com/file/d/1zvkgCtw3seWdZSdv0W5TlPJzb1_rt0bv/view" target="_blank">
+                            <Button color="primary" type="button" href={IPCaseStudy} target="_blank">
                               <span>Case Study</span>
                             </Button>
                             </Row>
@@ -194,10 +196,10 @@ class Services extends React.Component {
                               <h2 style={{color:"white"}}><strong>Small Business Development Center of Santa Cruz</strong></h2>
                             </Row>
                             <Row className="pl-sm">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel luctus arcu, nec sollicitudin dui. Donec quis sagittis justo. Etiam nec blandit velit. Sed venenatis sapien vel erat maximus, id feugiat dui semper. Phasellus at quam vestibulum, placerat tortor eget, euismod elit. Nam posuere eleifend convallis. Nam ante metus, tristique sed mauris at, semper semper leo. 
+                            In order to help SBDC grow as a business we helped design a content strategy around their brand that aimed to increase their social media following and engagement with the local Santa Cruz business commmunity. We provided metrics to track user engagement and developed social media templates centered around wellness.
                             </Row>
                             <Row className="pl-sm pt-sm">
-                            <Button color="primary" type="button">
+                            <Button color="primary" type="button" href={SBDCCaseStudy} target="_blank">
                               <span>Case Study</span>
                             </Button>
                             </Row>

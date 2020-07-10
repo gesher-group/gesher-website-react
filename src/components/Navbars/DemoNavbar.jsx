@@ -147,7 +147,7 @@ class DemoNavbar extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="/services"
+                      href="mailto:team@geshergroup.org"
                     >
                       Work With Us
                     </NavLink>
