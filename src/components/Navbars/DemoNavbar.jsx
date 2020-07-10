@@ -96,6 +96,14 @@ class DemoNavbar extends React.Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
+                    <NavLink
+                      href="/services"
+                    >
+                      Services
+                    </NavLink>
+                  </NavItem>
+                  
+                  {/* <NavItem>
                     <UncontrolledDropdown nav>
                       <DropdownToggle nav>
                     <NavLink
@@ -123,7 +131,7 @@ class DemoNavbar extends React.Component {
                       </DropdownItem>
                     </DropdownMenu>
                     </UncontrolledDropdown>
-                  </NavItem>
+                  </NavItem> */}
                   <NavItem>
                     <NavLink
                       id="tooltipteams"
@@ -136,6 +144,13 @@ class DemoNavbar extends React.Component {
                     <UncontrolledTooltip delay={0} target="tooltipteams">
                       Under Construction
                     </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      href="/services"
+                    >
+                      Work With Us
+                    </NavLink>
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
                     <Typeform color={this.props.color} disabled={true} text={"Applications Closed"}/>
