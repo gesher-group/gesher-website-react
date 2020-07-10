@@ -361,7 +361,7 @@ class Join extends React.Component {
                     </VerticalTimeline>
                 </section>
                 <section className="section section-shaped" style={{textAlign: "center",  background: "rgb(247,248,250)", background: "linear-gradient(180deg, rgba(247,248,250,1) 7%, rgba(82,95,127,1) 100%)"}}>
-                   {/* <Typeform/> */}
+                   <Typeform disabled={true} text={"Applications Closed"}/>
                 </section>
                 <Footer />
             </>
