@@ -136,7 +136,7 @@ class Services extends React.Component {
                             Coming into this project it was imperative we gained clarity on IPSociety’s mission so we could create meaningful, impactful solutions. At the end of our partnership we presented IPsociety with a full revamp of their digital landing page, a strategic deck with actionable insights and solutions, and unique code to track patent trends and anomalies across industries. 
                             </Row>
                             <Row className="pl-sm pt-sm">
-                            <Button color="primary" type="button" href="https://docs.google.com/presentation/d/1TuGT6ydqC5FUR_j7tQJ1teQYZDE0Gv6sD0Z1vgh2J6k/edit#slide=id.g876254c877_1_0" target="_blank">
+                            <Button color="primary" type="button" href="https://drive.google.com/file/d/1zvkgCtw3seWdZSdv0W5TlPJzb1_rt0bv/view" target="_blank">
                               <span>Case Study</span>
                             </Button>
                             </Row>
