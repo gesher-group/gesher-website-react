@@ -42,7 +42,7 @@ class ServicesHero extends React.Component {
               {/* <span className="span-150" />
               <span className="span-50" />
               <span className="span-50" />
-              <span className="span-75" />
+              <span className="span-75" /> 
               <span className="span-100" />
               <span className="span-75" />
               <span className="span-50" />
