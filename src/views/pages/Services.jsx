@@ -196,7 +196,7 @@ class Services extends React.Component {
                               <h2 style={{color:"white"}}><strong>Small Business Development Center of Santa Cruz</strong></h2>
                             </Row>
                             <Row className="pl-sm">
-                            In order to help SBDC grow as a business we helped design a content strategy around their brand that aimed to increase their social media following and engagement with the local Santa Cruz business commmunity. We provided metrics to track user engagement and developed social media templates centered around wellness.
+                            During the Outset of COVID-19, we brainstormed different ways we could help out small businesses that were struggling to adapt to the new environment. Through our partnership with the Santa Cruz Small Business Development Center, we were able to put efforts in this direction, providing helpful content pieces catered towards business owners, helping them with their transition. Additionally, we helped SBDC with their future content strategy, with plans to implement data analytics, and creating community engagement. Many of our members found it rewarding and illuminating to work on this project.
                             </Row>
                             <Row className="pl-sm pt-sm">
                             <Button color="primary" type="button" href={SBDCCaseStudy} target="_blank">
