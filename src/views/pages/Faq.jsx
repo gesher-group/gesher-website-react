@@ -79,7 +79,7 @@ class Questions extends React.Component {
             <Container>
                   <h2 class="display-2"><strong><center>Frequently Asked Questions</center></strong></h2>
                     <br />
-                      <p className="display-3"><strong>What does Gesher look for in applicants?</strong></p>
+                      {/* <p className="display-3"><strong>What does Gesher look for in applicants?</strong></p>
                       <p class="lead text-muted">Lorem ipsum dolor</p>
 
                       <br />
@@ -96,7 +96,7 @@ class Questions extends React.Component {
 
                       <br />
                       <p className="display-3"><strong>I’m not professionally interested in consulting, is Gesher still a good fit for me?</strong></p>
-                      <p class="lead text-muted">Lorem ipsum dolor</p>
+                      <p class="lead text-muted">Lorem ipsum dolor</p> */}
 
                       <br />
                       <p class="display-3"><strong>What type of majors do you typically recruit? </strong></p>
