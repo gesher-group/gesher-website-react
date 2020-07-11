@@ -19,27 +19,22 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col, Img } from "reactstrap";
+import BackgroundImage from '../assets/img/theme/nine-ten.jpg';
 
+var sectionStyle = {
+  width: "100%",
+  height: "100%",
+  background: "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(" + BackgroundImage + ")",
+  backgroundPosition: "center",
+  backgroundSize: "cover"
+};
 class QuestionsHero extends React.Component {
   render() {
     return (
       <>
         <div className="position-relative">
-          {/* Hero for FREE version */}
+          <section style= {sectionStyle}>
           <section className="section section-lg section-hero section-shaped">
-            {/* Background circles */}
-            <div className="shape shape-style-1 shape-default">
-              <span className="span-150" />
-              <span className="span-50" />
-              <span className="span-50" />
-              <span className="span-75" />
-              <span className="span-100" />
-              <span className="span-75" />
-              <span className="span-50" />
-              <span className="span-100" />
-              <span className="span-50" />
-              <span className="span-100" />
-            </div>
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
@@ -67,6 +62,7 @@ class QuestionsHero extends React.Component {
                 />
               </svg>
             </div>
+          </section>
           </section>
         </div>
       </>
