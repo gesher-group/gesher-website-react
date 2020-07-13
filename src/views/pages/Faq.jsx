@@ -79,24 +79,24 @@ class Questions extends React.Component {
             <Container>
                   <h2 class="display-2"><strong><center>Frequently Asked Questions</center></strong></h2>
                     <br />
-                      {/* <p className="display-3"><strong>What does Gesher look for in applicants?</strong></p>
-                      <p class="lead text-muted">Lorem ipsum dolor</p>
+                      <p className="display-3"><strong>What does Gesher look for in applicants?</strong></p>
+                      <p class="lead text-muted">More than anything, Gesher has focused on a culture fit for the past few recruitment cycles. We encourage applicants to think about their <a href='http://jobs.netflix.com/culture'>values. </a></p>
 
                       <br />
                       <p className="display-3"><strong>How should I approach the Gesher Application: Resumes and Case Studies?</strong></p>
-                      <p class="lead text-muted">Lorem ipsum dolor</p>
+                      <p class="lead text-muted">We understand that Gesher will likely be your first experience in preparing for an interview. Regardless of if you are accepted, it will be worthwhile to learn about resumes and applications! We recommend that you follow conventional guidelines of cleaning up your resume and linkedin.</p>
 
                       <br />
                       <p className="display-3"><strong>How do I prepare for a case interview?</strong></p>
-                      <p class="lead text-muted">Lorem ipsum dolor</p>
+                      <p class="lead text-muted">We don’t expect you to solve any case questions perfectly. Just have an idea of what a case study looks like.</p>
 
-                      <br />
+                      {/*<br />
                       <p className="display-3"><strong>What does integration into Gesher, professionally, and socially, look like?</strong></p>
-                      <p class="lead text-muted">Lorem ipsum dolor</p>
+                      <p class="lead text-muted">Lorem ipsum dolor</p>*/}
 
                       <br />
                       <p className="display-3"><strong>I’m not professionally interested in consulting, is Gesher still a good fit for me?</strong></p>
-                      <p class="lead text-muted">Lorem ipsum dolor</p> */}
+                      <p class="lead text-muted">Yes, Gesher Group employs management consulting as a means of developing our professional skills rather than the end itself. Many of the benefits our members see is in their own personal growth around soft-skills, as well as team management and leadership. We are not a fast track to getting you into a consulting firm.</p>
 
                       <br />
                       <p class="display-3"><strong>What type of majors do you typically recruit? </strong></p>
