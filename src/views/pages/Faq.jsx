@@ -77,10 +77,9 @@ class Questions extends React.Component {
                 <QuestionsHero />
                 <section className="section section-lg">
             <Container>
-                  <h2 class="display-2"><strong><center>Frequently Asked Questions</center></strong></h2>
                     <br />
                       <p className="display-3"><strong>What does Gesher look for in applicants?</strong></p>
-                      <p class="lead text-muted">More than anything, Gesher has focused on a culture fit for the past few recruitment cycles. We encourage applicants to think about their <a href='http://jobs.netflix.com/culture'>values. </a></p>
+                      <p class="lead text-muted">More than anything, Gesher has focused on a culture fit for the past few recruitment cycles. We encourage applicants to think about their <a href='http://geshergroup.org/teams'>values. </a></p>
 
                       <br />
                       <p className="display-3"><strong>How should I approach the Gesher Application: Resumes and Case Studies?</strong></p>
