@@ -164,11 +164,11 @@ return (
                     <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-5-800x800.jpg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
-                            <span className="d-block mb-1">Daniel Franz</span>
-                            <small className="h6 text-muted">Project Manager<br></br>Econ Class of 2020</small>
+                            <span className="d-block mb-1">Cher Wei</span>
+                            <small className="h6 text-muted">Marketing Consultant<br></br>BME Class of 2022</small>
                         </h5>
                         <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/danielfranz820/">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/cher-wei/">
                                 <i className="fa fa-linkedin" />
                             </Button>
 
@@ -181,13 +181,13 @@ return (
                     <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-6-800x800.jpg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
-                            <span className="d-block mb-1">Eric Flores</span>
+                            <span className="d-block mb-1">Sanjana Raman</span>
                             <small className="h6 text-muted">
-                                Project Manager<br></br>BME Class of 2020
+                                Business Consultant<br></br>BME Class of 2021
                             </small>
                         </h5>
                         <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/ericfloress/">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/sanjana-raman-5b0998122/">
                                 <i className="fa fa-linkedin" />
                             </Button>
 
@@ -200,11 +200,11 @@ return (
                     <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-7-800x800.jpg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
-                            <span className="d-block mb-1">Lila Hunter-Reay</span>
-                            <small className="h6 text-muted">Director of Affairs<br></br>Cog Sci Class of 2020</small>
+                            <span className="d-block mb-1">Aaron Phan</span>
+                            <small className="h6 text-muted">Project Manager<br></br>BME Class of 2021</small>
                         </h5>
                         <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/matthew-lee-ucsc/">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/aaron-phan4/">
                                 <i className="fa fa-linkedin" />
                             </Button>
 
@@ -217,11 +217,11 @@ return (
                     <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-8-800x800.jpg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
-                            <span className="d-block mb-1">Maeve Black</span>
-                            <small className="h6 text-muted">Project Manager<br></br>Cog Sci Class of 2020</small>
+                            <span className="d-block mb-1">Rajvir Birk</span>
+                            <small className="h6 text-muted">Marketing Consultant<br></br>BME Class of 2022</small>
                         </h5>
                         <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/maeve-black-8ab86715a/">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/rajvir-birk/">
                                 <i className="fa fa-linkedin" />
                             </Button>
 
@@ -238,7 +238,7 @@ return (
                     <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-9-800x800.jpg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
-                            <span className="d-block mb-1">Daniel Franz</span>
+                            <span className="d-block mb-1">Oliver Calhoun</span>
                             <small className="h6 text-muted">Director of Projects<br></br>Econ Class of 2021</small>
                         </h5>
                         <div className="mt-3">
