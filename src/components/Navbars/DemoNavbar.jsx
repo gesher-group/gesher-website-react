@@ -156,8 +156,11 @@ class DemoNavbar extends React.Component {
                       Work With Us
                     </NavLink>
                   </NavItem>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
-                    <Typeform color={this.props.color} disabled={true} text={"Applications Closed"}/>
+                  <NavItem>
+                    <NavLink href="https://docs.google.com/forms/d/e/1FAIpQLSdpxI_Pcr6msebVmvXVwp8JYg69XUyab7448HUHb71o91NnLg/viewform" target="_blank">
+                      Apply Here
+                    </NavLink>
+                    
                   </NavItem>
                 </Nav>
 
