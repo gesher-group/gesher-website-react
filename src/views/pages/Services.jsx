@@ -141,7 +141,7 @@ class Services extends React.Component {
               <Row className="pb-md">
                 <div className="justify-content-left text-left">
                   <h1>
-                    <strong>Take a look at some of what some of our clients have said about our work</strong>
+                    <strong>Take a look at what some of our clients have said about our work</strong>
                   </h1>
                 </div>
               </Row>
