@@ -107,13 +107,13 @@ return (
                     <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-14-800x800.jpeg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
-                            <span className="d-block mb-1">Maricel Misenas Sandico</span>
+                            <span className="d-block mb-1">Maricel Sandico</span>
                             <small className="h6 text-muted">
                                 Director of Projects<br></br>BME Class of 2021
                             </small>
                         </h5>
                         <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/oliver-calhoun/">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/maricel-misenas-sandico/">
                                 <i className="fa fa-linkedin" />
                             </Button>
 
