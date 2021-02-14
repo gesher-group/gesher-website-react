@@ -23,7 +23,6 @@ class Services extends React.Component {
               <Col className="text-justify" lg="12">
                 <h2 className="text-center">Services</h2>
                 <p className="lead">
-                We help businesses stay competitive even in rapidly changing markets. We will work with 4-5 clients every quarter applying the newest tools in our repertoire, continuously updating our technique. Our biggest strength is in our consultants, top talent sourced from the best at UC Santa Cruz, each with bright and innovative ideas not yet constrained by traditional thinking.
                 </p>
                 {/* <div className="btn-wrapper">
                   <Button
