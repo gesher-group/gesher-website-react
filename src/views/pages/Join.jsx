@@ -329,7 +329,7 @@ class Join extends React.Component {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="3/1/2021"
+                            date="3/31/2021"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                             icon={''}
