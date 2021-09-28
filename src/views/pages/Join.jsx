@@ -293,7 +293,7 @@ class Join extends React.Component {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            date="2/19/2021"
+                            date="9/28/2021"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             icon={''}
                         >
@@ -304,45 +304,20 @@ class Join extends React.Component {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            date="2/23/2021"
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            icon={''}
-                        >
-                            <h3 className="vertical-timeline-element-title">Gesher Info Night</h3>
-                            <p>
-                                Learn more about what we do at Gesher!
-                            </p>
-                        </VerticalTimelineElement>
-                        
-                        <VerticalTimelineElement
-                            className="vertical-timeline-element--work"
-                            date="3/1/2021"
+                            date="10/15/2021"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                             icon={''}
                         >
-                            <h3 className="vertical-timeline-element-title">Early Applications Closed</h3>
+                            <h3 className="vertical-timeline-element-title">Applications Closed</h3>
                             <p>
-                                Last day to submit applications for our Spring 2021 early recruitment season. Every applicant who applies before March 1st is guaranteed an interview.
-    </p>
-                        </VerticalTimelineElement>
-                        <VerticalTimelineElement
-                            className="vertical-timeline-element--work"
-                            date="3/31/2021"
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            icon={''}
-                        >
-                            <h3 className="vertical-timeline-element-title">All Applications Closed</h3>
-                            <p>
-                                Last day to submit applications for our Spring 2021 early recruitment season.
+                                Last day to submit applications for our Fall 2021 early recruitment season.
     </p>
                         </VerticalTimelineElement>
 
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="4/2/2021 - 4/4/2021"
+                            date="10/17/2021"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         >
@@ -353,7 +328,7 @@ class Join extends React.Component {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--education"
-                            date="4/5/2021"
+                            date="10/20/2021"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         >
@@ -364,7 +339,7 @@ class Join extends React.Component {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--education"
-                            date="4/7/2021"
+                            date="10/27/2021"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         >
