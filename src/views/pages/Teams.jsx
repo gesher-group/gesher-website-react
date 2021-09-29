@@ -142,7 +142,7 @@ return (
                     <div className="pt-4 text-center">
                         <h5 className="title">
                             <span className="d-block mb-1">Phoebe Jeng</span>
-                            <small className="h6 text-muted">Director of Marketing<br></br>CS Class of 2023</small>
+                            <small className="h6 text-muted">Director of Marketing<br></br>Art Class of 2022</small>
                         </h5>
                         <div className="mt-3">
                             <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/tanxmit/">
