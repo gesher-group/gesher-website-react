@@ -304,6 +304,18 @@ class Join extends React.Component {
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
+                            date="10/6/2021"
+                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                            icon={''}
+                        >
+                            <h3 className="vertical-timeline-element-title">Gesher Social</h3>
+                            <p href="https://docs.google.com/forms/d/e/1FAIpQLSf4O-977K6yr4x4dkZR3GaMKFzjLXW82vzsyzHLzz2o5wEDcg/viewform">
+                                7 pm at Seabright! Fill out the RSVP form in the discord. 
+                            </p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
                             date="10/15/2021"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}

@@ -138,7 +138,7 @@ return (
                 </Col>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                 <div className="px-4">
-                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-11-x.jpg")} style={{ width: "200px" }} />
+                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-fall-4.jpg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
                             <span className="d-block mb-1">Phoebe Jeng</span>
