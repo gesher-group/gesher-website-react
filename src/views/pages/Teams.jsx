@@ -145,7 +145,7 @@ return (
                             <small className="h6 text-muted">Director of Marketing<br></br>Art Class of 2022</small>
                         </h5>
                         <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/tanxmit/">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="www.linkedin.com/in/phoebe-jeng-27a956222">
                                 <i className="fa fa-linkedin" />
                             </Button>
 
