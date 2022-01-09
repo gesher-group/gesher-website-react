@@ -153,6 +153,40 @@ return (
                     </div>
                 </div>
                 </Col>
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                <div className="px-4">
+                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/dhritigoomer.JPG")} style={{ width: "200px" }} />
+                    <div className="pt-4 text-center">
+                        <h5 className="title">
+                            <span className="d-block mb-1">Dhriti Goomer</span>
+                            <small className="h6 text-muted">Vice President<br></br>CS Class of 2024</small>
+                        </h5>
+                        <div className="mt-3">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="www.linkedin.com/in/dhritigoomer">
+                                <i className="fa fa-linkedin" />
+                            </Button>
+
+                        </div>
+                    </div>
+                </div>
+                </Col>
+                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                <div className="px-4">
+                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-fall-4.jpg")} style={{ width: "200px" }} />
+                    <div className="pt-4 text-center">
+                        <h5 className="title">
+                            <span className="d-block mb-1">Phoebe Jeng</span>
+                            <small className="h6 text-muted">Director of Marketing<br></br>Art Class of 2022</small>
+                        </h5>
+                        <div className="mt-3">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="www.linkedin.com/in/phoebe-jeng-27a956222">
+                                <i className="fa fa-linkedin" />
+                            </Button>
+
+                        </div>
+                    </div>
+                </div>
+                </Col> */}
             </Row>
             <br />
             
