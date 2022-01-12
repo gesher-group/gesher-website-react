@@ -170,23 +170,23 @@ return (
                     </div>
                 </div>
                 </Col>
-                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                <Col className="mb-5 mb-lg-0" lg="3" md="6">
                 <div className="px-4">
-                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-fall-4.jpg")} style={{ width: "200px" }} />
+                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/nomuun.jpg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
-                            <span className="d-block mb-1">Phoebe Jeng</span>
-                            <small className="h6 text-muted">Director of Marketing<br></br>Art Class of 2022</small>
+                            <span className="d-block mb-1">Nomuun Delgersaikhan</span>
+                            <small className="h6 text-muted">Director of External Affairs<br></br>Economics Class of 2023</small>
                         </h5>
                         <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="www.linkedin.com/in/phoebe-jeng-27a956222">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="www.linkedin.com/in/nomuun-delgersaikhan-51b1291b7">
                                 <i className="fa fa-linkedin" />
                             </Button>
 
                         </div>
                     </div>
                 </div>
-                </Col> */}
+                </Col>
             </Row>
             <br />
             
