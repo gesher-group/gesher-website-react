@@ -1,3 +1,9 @@
 /node_modules/
 /src/test.js
 /build
+.DS_Store
+src/.DS_Store
+src/assets/.DS_Store
+src/assets/img/.DS_Store
+src/assets/img/theme/.DS_Store
+src/views/.DS_Store
