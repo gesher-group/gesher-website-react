@@ -85,21 +85,21 @@ return (
                 </Col>
             </Row>
             <Row>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                <div className="px-4">
-                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-10-800x800.jpg")} style={{ width: "200px" }} />
-                    <div className="pt-4 text-center">
-                        <h5 className="title">
-                            <span className="d-block mb-1">Sam Duman</span>
-                            <small className="h6 text-muted">President<br></br>BME Class of 2023</small>
-                        </h5>
-                        <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/sam-duman/">
-                                <i className="fa fa-linkedin" />
-                            </Button>
+//                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
+//                 <div className="px-4">
+//                     <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-10-800x800.jpg")} style={{ width: "200px" }} />
+//                     <div className="pt-4 text-center">
+//                         <h5 className="title">
+//                             <span className="d-block mb-1">Sam Duman</span>
+//                             <small className="h6 text-muted">President<br></br>BME Class of 2023</small>
+//                         </h5>
+//                         <div className="mt-3">
+//                             <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/sam-duman/">
+//                                 <i className="fa fa-linkedin" />
+//                             </Button>
 
-                        </div>
-                    </div>
+//                         </div>
+//                     </div>
                 </div>
                 </Col>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
@@ -119,22 +119,22 @@ return (
                     </div>
                 </div>
                 </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                <div className="px-4">
-                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-11-x.jpg")} style={{ width: "200px" }} />
-                    <div className="pt-4 text-center">
-                        <h5 className="title">
-                            <span className="d-block mb-1">Tanmay Mittal</span>
-                            <small className="h6 text-muted">Director of Labs<br></br>CS Class of 2023</small>
-                        </h5>
-                        <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/tanxmit/">
-                                <i className="fa fa-linkedin" />
-                            </Button>
+//                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
+//                 <div className="px-4">
+//                     <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-11-x.jpg")} style={{ width: "200px" }} />
+//                     <div className="pt-4 text-center">
+//                         <h5 className="title">
+//                             <span className="d-block mb-1">Tanmay Mittal</span>
+//                             <small className="h6 text-muted">Director of Labs<br></br>CS Class of 2023</small>
+//                         </h5>
+//                         <div className="mt-3">
+//                             <Button className="btn-icon-only rounded-circle" color="primary" href="https://www.linkedin.com/in/tanxmit/">
+//                                 <i className="fa fa-linkedin" />
+//                             </Button>
 
-                        </div>
-                    </div>
-                </div>
+//                         </div>
+//                     </div>
+//                 </div>
                 </Col>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                 <div className="px-4">
@@ -159,7 +159,7 @@ return (
                     <div className="pt-4 text-center">
                         <h5 className="title">
                             <span className="d-block mb-1">Dhriti Goomer</span>
-                            <small className="h6 text-muted">Vice President<br></br>CS Class of 2024</small>
+                            <small className="h6 text-muted">President<br></br>CS Class of 2024</small>
                         </h5>
                         <div className="mt-3">
                             <Button className="btn-icon-only rounded-circle" color="primary" href="www.linkedin.com/in/dhritigoomer">
