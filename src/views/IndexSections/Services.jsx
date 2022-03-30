@@ -21,7 +21,7 @@ class Services extends React.Component {
           <Container>
             <Row className="py-5 justify-content-center">
               <Col className="text-justify" lg="12">
-                <h2 className="text-center">TEST</h2>
+                <h2 className="text-center">Services</h2>
                 <p className="lead">
                 </p>
                 {/* <div className="btn-wrapper">
@@ -57,7 +57,7 @@ class Services extends React.Component {
                           Business Development
                         </h6>
                         <p className="description mt-3">
-                          Create market strategies, conduct extensive overviews and analyze growth opportunities.
+                          Create market strategies, conduct extensive overviews, and analyze growth opportunities.
                         </p>
                         <Button
                           className="mt-4"
