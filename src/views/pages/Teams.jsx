@@ -121,7 +121,7 @@ return (
                 </Col>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                 <div className="px-4">
-                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/team-5-800x800.jpg")} style={{ width: "200px" }} />
+                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/nno_photo.jpg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
                             <span className="d-block mb-1">Megan Amiya</span>
@@ -155,14 +155,14 @@ return (
                 </Col>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                 <div className="px-4">
-                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/dhritigoomer.JPG")} style={{ width: "200px" }} />
+                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/nomuun.jpg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
-                            <span className="d-block mb-1">Dhriti Goomer</span>
-                            <small className="h6 text-muted">President<br></br>CS Class of 2024</small>
+                            <span className="d-block mb-1">Nomuun Delgersaikhan</span>
+                            <small className="h6 text-muted">Director of External Affairs<br></br>Economics Class of 2023</small>
                         </h5>
                         <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="www.linkedin.com/in/dhritigoomer">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="www.linkedin.com/in/nomuun-delgersaikhan-51b1291b7">
                                 <i className="fa fa-linkedin" />
                             </Button>
 
@@ -172,14 +172,14 @@ return (
                 </Col>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                 <div className="px-4">
-                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/nomuun.jpg")} style={{ width: "200px" }} />
+                    <img alt="..." className="rounded-circle img-center img-fluid shadow shadow-lg--hover" src={require("assets/img/theme/no_photo.jpg")} style={{ width: "200px" }} />
                     <div className="pt-4 text-center">
                         <h5 className="title">
-                            <span className="d-block mb-1">Nomuun Delgersaikhan</span>
-                            <small className="h6 text-muted">Director of External Affairs<br></br>Economics Class of 2023</small>
+                            <span className="d-block mb-1">Not Avaliable</span>
+                            <small className="h6 text-muted">Director of Projects<br></br>Not Avaliable</small>
                         </h5>
                         <div className="mt-3">
-                            <Button className="btn-icon-only rounded-circle" color="primary" href="www.linkedin.com/in/nomuun-delgersaikhan-51b1291b7">
+                            <Button className="btn-icon-only rounded-circle" color="primary" href="">
                                 <i className="fa fa-linkedin" />
                             </Button>
 
