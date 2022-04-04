@@ -92,7 +92,7 @@ class DemoNavbar extends React.Component {
                     <NavLink
                       href="/join"
                     >
-                      Join
+                      Join!
                     </NavLink>
                   </NavItem>
                   <NavItem>
