@@ -299,7 +299,7 @@ class Join extends React.Component {
                         >
                             <h3 className="vertical-timeline-element-title">Applications Open</h3>
                             <p>
-                                Use the apply buttons on the navbar to apply.
+                                Use the apply button on the navbar to apply.
                             </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -309,9 +309,9 @@ class Join extends React.Component {
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                             icon={''}
                         >
-                            <h3 className="vertical-timeline-element-title">Gesher Social</h3>
+                            <h3 className="vertical-timeline-element-title">Interviews Begin</h3>
                             <p href="https://docs.google.com/forms/d/e/1FAIpQLSf4O-977K6yr4x4dkZR3GaMKFzjLXW82vzsyzHLzz2o5wEDcg/viewform">
-                                Interviews start (rolling interviews)
+                                <b>Invite Only</b> Interviews start (rolling interviews)
                             </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -335,7 +335,7 @@ class Join extends React.Component {
                         >
                             <h3 className="vertical-timeline-element-title">Interviews End</h3>
                             <p>
-                                <b>Invite Only</b> All interviews will be completed at this time.
+                                All interviews will be completed at this time.
     </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -357,7 +357,7 @@ class Join extends React.Component {
                         >
                             <h3 className="vertical-timeline-element-title">First meeting</h3>
                             <p>
-                                This will be our first meeting with new members that have been selected from the application period
+                                This will be our first meeting with new members that have been selected from the application period!
     </p>
                         </VerticalTimelineElement>
                     </VerticalTimeline>
