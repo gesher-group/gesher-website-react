@@ -78,6 +78,9 @@ class Hero extends React.Component {
                       <p className="lead text-white">
                         Bridging the classroom to the workplace.
                       </p>
+                      <p className="lead text-white">
+                        Applications open NOW until April 29, 2022. Click the green apply button above!
+                      </p>
                     </Col>
                   </Row>
                   {/* <Row className="py-5" /> */}
