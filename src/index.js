@@ -38,7 +38,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Helmet>
       <title>Gesher Group</title>
-      <meta name="description" content={"UCSC's Premier Consulting Group"} />
+      <meta name="description" content={"UCSC's Premier Consulting Group\nAccepting applications until April 29, 2022!"} />
       <meta name="og:image" content={"assets/img/brand/geshblue.png"} />
     </Helmet>
     <Switch>
