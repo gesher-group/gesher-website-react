@@ -79,7 +79,7 @@ class Hero extends React.Component {
                         Bridging the classroom to the workplace.
                       </p>
                       <p className="lead text-white">
-                        Applications open NOW until May 6, 2022. Click the green apply button above!
+                        Applications open NOW until October 10, 2022. Click the green apply button above!
                       </p>
                     </Col>
                   </Row>
