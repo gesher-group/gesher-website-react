@@ -157,7 +157,7 @@ class DemoNavbar extends React.Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink style={{backgroundColor: "green"}} target="_blank" href="https://forms.gle/zHp1UuFV1jGzxMZe8">
+                    <NavLink style={{backgroundColor: "green"}} target="_blank" href="https://www.tinyurl.com/gesherfall22">
                       <strong>Apply Here!</strong>
                     </NavLink>
                     
